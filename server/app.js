@@ -3,6 +3,14 @@ let bodyParser = require('body-parser');
 let history = require('connect-history-api-fallback');
 let path = require('path');
 let nodemailer = require('nodemailer')
+let https = require('https')
+let fs = require("fs")
+let http = require('http')
+
+const httpsOption = {
+  key:  fs.readFileSync('./https/2538690_www.kiyotadg.com.key'),
+  cert: fs.readFileSync('./https/2538690_www.kiyotadg.com.crt')
+}
 
 let app = express();
 app.use(history());
@@ -63,6 +71,12 @@ app.use(function(req, res, next){
   console.log('res, req');
   next()
 })
-app.listen(8081, function(){
-  console.log('success listen ...8081')
+// app.listen(8081, function(){
+//   console.log('success listen ...8081')
+// })
+http.createServer(app).listen(80, function(){
+  console.log('success listen ...80')
+});
+https.createServer(httpsOption, app).listen(443, function(){
+  console.log('443')
 })
