@@ -74,7 +74,7 @@ app.use(function(req, res, next){
 // app.listen(8081, function(){
 //   console.log('success listen ...8081')
 // })
-http.createServer(app).listen(80, function(){
+http.createServer(app).listen(8080, function(){
   console.log('success listen ...80')
 });
 https.createServer(httpsOption, app).listen(443, function(){
