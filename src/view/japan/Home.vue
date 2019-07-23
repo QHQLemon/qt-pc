@@ -6,9 +6,7 @@
           东莞清田精密齿轮有限公司
           世界に挑戦するグローバル中小企業です。
         </p>
-        <p>
-          当社の持っている、高品質の精密切削技術水準を多种类の数の少ないの形で、半導体生産加工製造装置と自動車生産設備などが複合部品中心;大量生産の形で、精密切削部品であるデジタルカメラや小型モータ製造用の歯車、産業設備用の部品など。販売部門アジアや欧米诸国に及ぶ。
-        </p>
+        <p>当社の持っている、高品質の精密切削技術水準を多种类の数の少ないの形で、半導体生産加工製造装置と自動車生産設備などが複合部品中心;大量生産の形で、精密切削部品であるデジタルカメラや小型モータ製造用の歯車、産業設備用の部品など。販売部門アジアや欧米诸国に及ぶ。</p>
         <p>
           <router-link tag="span" to="/Japanese/company" class="btn btn-lg my-btn btn-default">もっと知る</router-link>
         </p>
@@ -17,54 +15,22 @@
         <my-swiper></my-swiper>
       </div>
     </div>
-    <div class="intro-talk">
-      <div class="col-lg-6">
-        <img src="../../assets/img/logo.png" alt>
-      </div>
-      <div class="col-lg-6 intro-talk-right">
-        <!-- <p class="intro-title ">代表致辞</p> -->
-        <blockquote>
-          <p>「当社は1958年（昭和３３年）精密小型歯車の専門工場として発足し、時代の要請に応え逐次業務の拡張を図り、現在は精密小型歯車 のみならず電子機器・光学機器・OA機器等の超精密部品の機械加工及び組立を業務としております。</p>
-          <p>は目覚しいものがあり、機械加工部品に対する業界ニーズは、従来に増して品質の安定 ・価格の低価・納期の迅速が要望されこの要望に対して有効な対応をすることが当社の社会に対する責任と痛感しております。</p>
-          <p>また、グローバル化も見据えた海外展開も今後加速して世界中のニーズも取り入れ、躍進して行きます。」</p>
-        </blockquote>
-        <p class="intro-people">——代表ご挨拶</p>
-      </div>
+
+    <div class="info-wrapper container">
+      <h3>清田からのお知らせ</h3>
+      <dl class="topic clearfix">
+        <dt>2019年07月5日</dt>
+        <dd>
+          <em>株式譲渡</em>
+          <br>「浦和冶金工业株式会社」は、株券500万円をすべて清田株式会社に譲渡しました。
+          MMIは株式の2500万円を「大田セイコー」にすべて譲渡した。持分
+          変更后、「清田株式会社」の出资额は10000万円で、登录资金36.36%。「大田
+          セイコー株式会社「资本金は17500万円で、登录资金63.64%。
+          役員変更も併行した
+          <br>
+        </dd>
+      </dl>
     </div>
-
-  <div class="intro-product container ">
-      <div class="col-lg-6 intro-product-left">
-        <p class="intro-title">製品ラインナップ</p>
-        <p>多种多様な制品群(小型歯车、精密加工部品など)は、弊社の技术力の下で高品质、高精度、高レベルで完成されています。グローバリゼーションの視点から顧客のニーズを捉え、先進技術を活用して発展を続ける。当社労働者は今後も引き続き品質限界に挑戦して参ります。</p>
-        <router-link tag="p" class="p-link" to="/Japanese/product">製品の詳細を知る-></router-link>
-      </div>
-      <div class="col-lg-6 img-box">
-        <img src="../../assets/img/pro4.jpg" alt>
-      </div>
-    </div>
-
-    <div class="intro-device">
-      <p class="intro-title">設備概略</p>
-      <p class="device-dire">
-        "本公司的设备从通用机到专用机，都是根据本公司的自行设计进行的安装，从而形成了一套丰富的原创型附属装置。同时，优秀的生产技术人员使本公司能够自行完成生产设备制造及修理等事宜。本公司的特点之一即日本国内与海外分公司同步保有同等水平生产设备及品质检查设备。"
-      </p>
-      <router-link tag="span" to="/Japanese/device">設備をもっと知る</router-link>
-    </div>
-
-
-
-    <!-- <div class="intro-cert container">
-      <div class="intro-cert-item">
-        <div class="col-lg-6 col-lg-offset-1">
-          <img src="../assets/img/IATF16949-2016/IATF16949-2016-1.png" alt>
-        </div>
-        <div class="col-lg-5">
-          <p class="intro-title" style="color: #333;">资质证书</p>
-          <p>最后，在全球一体化这有目共睹的环境下，我们将加快推进发展海外事业，对应全球需求，向全球跃进。"</p>
-          <router-link tag="span" to="/life">查看更多证书-></router-link>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 
@@ -83,6 +49,47 @@ export default {
 .home-wrapper {
   margin-top: 20px;
 }
+
+.info-wrapper {
+  margin-top: 100px;
+  width: 900px;
+  border: 2px solid #ccc;
+}
+.info-wrapper h3 {
+  margin: 0 0 0 0;
+  padding: 7px 0 10px 30px;
+  border-bottom: 5px solid #005ba9;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+.topic {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 320px;
+  margin: 0 0 0 0;
+  font-size: 14px;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+.topic dt {
+  width: 200px;
+  margin: 10px 0 0 0;
+  padding: 10px 0 0 40px;
+  font-weight: bold;
+  color: #005ba9;
+}
+.topic dd em {
+  font-weight: 550;
+}
+.topic dd {
+  width: 600px;
+  padding: 20px 80px 0 0;
+}
+
+
+
 .intro-title {
   color: #005ba9;
   font-size: 24px;
@@ -114,7 +121,9 @@ export default {
 }
 .intro-cert img {
   height: 600px;
-  box-shadow: -1px -1px 5px 0 rgba(26,26,67,.05), -12px 20px 125px -25px rgba(50,50,93,.5), -18px 20px 75px -37.5px rgba(0,0,0,.6);
+  box-shadow: -1px -1px 5px 0 rgba(26, 26, 67, 0.05),
+    -12px 20px 125px -25px rgba(50, 50, 93, 0.5),
+    -18px 20px 75px -37.5px rgba(0, 0, 0, 0.6);
 }
 .intro-product {
   min-height: 300px;
@@ -122,9 +131,9 @@ export default {
 }
 
 .intro-product img {
-  height: 350px
+  height: 350px;
 }
-.intro-product-left{
+.intro-product-left {
   padding: 75px 100px;
 }
 
@@ -138,12 +147,12 @@ export default {
 .intro-cert-item .col-lg-6 {
   margin-bottom: 200px;
 }
-.intro-device{
+.intro-device {
   min-height: 300px;
-  margin-top: 150px ;
-  text-align:center;
+  margin-top: 150px;
+  text-align: center;
 }
-.device-dire{
+.device-dire {
   margin: 0 auto;
   width: 700px;
   font-size: 16px;
@@ -151,9 +160,9 @@ export default {
   line-height: 40px;
   margin-bottom: 50px;
 }
-.intro-device span{
-  border:1px solid #ccc;
-  padding:10px 15px;
+.intro-device span {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
   font-weight: 550;
   color: #0059a0;
   cursor: pointer;

@@ -64,7 +64,7 @@
       </div>
     </div>
 
-    <div class="talk-wrapper">
+    <!-- <div class="talk-wrapper">
       <ol>
         <li class="talk-dot active"></li>
         <li class="talk-dot"></li>
@@ -86,7 +86,7 @@
           <p>"Protecting the environment is our common responsibility to abide by environmental laws and regulations and enhance environmental awareness; Standardize operation process, control pollution by science and technology: innovate energy saving and consumption reduction, implement environmental indicators; Full participation in control, continuous improvement."</p>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -131,9 +131,17 @@ export default {
       companyHistory: [
         {
           time: "2019.July",
-          content: "Change of shareholders and change of board members."
+          content: `“浦和冶金工业株式会社”将全部股权转让给“清田株式会社”，
+                    “株式会社MMI”将全部股权转让给“大田精工株式会社”，
+                    同时董事会成员变更。`
         },
+        { time: "2018.11", content: "Replacement IATF 16949:2016." },
+
         { time: "2018.Mar", content: "The term of operation is changed to long term." },
+        { time: "2018.Mar", content: "EN ISO 13485:2016." },
+        { time: "2017.Dec", content: "Replacement ISO 14001:2015." },
+        { time: "2017.Dec", content: "Replacement ISO 9001:2015." },
+        { time: "2016.Sep", content: "ISO/TS 16949:2009." },
         { time: "2016.July", content: "The unified credit code is changed to 914419007673331778." },
         { time: "2013.Dec", content: 'Increase the shareholder "MMI" and change the registered capital to 275m yen.' },
         { time: "2013.Aug", content: "Move to present address." },

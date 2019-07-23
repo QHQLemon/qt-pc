@@ -51,7 +51,7 @@
         <span class="glyphicon glyphicon-record"></span>
         <p>
           <strong>{{item.time}}</strong>
-          {{item.content}}
+          <span class="content-item">{{item.content}}</span>
         </p>
       </div>
     </div>
@@ -104,10 +104,28 @@ export default {
         { title: "工作人员", content: "80人" }
       ],
       companyHistory: [
-        { time: "2019年07月", content: "变更股东，同时董事会成员变更。" },
+        {
+          time: "2019年07月",
+          content: `“浦和冶金工业株式会社”将全部股权转让给“清田株式会社”，
+“株式会社MMI”将全部股权转让给“大田精工株式会社”，
+同时董事会成员变更。`
+        },
+        { time: "2018年11月", content: "换证IATF 16949:2016。" },
+
         { time: "2018年03月", content: "经营期限变更为长期。" },
-        { time: "2016年07月", content: "统一信用代码变更为914419007673331778。" },
-        { time: "2013年12月", content: "增加股东“株式会社MMI”，同时注册资本变更为27500万日元。" },
+        { time: "2018年03月", content: "认证EN ISO 13485:2016。" },
+        { time: "2017年12月", content: "换证ISO 14001:2015。" },
+        { time: "2017年12月", content: "换证ISO 9001:2015。" },
+        { time: "2016年09月", content: "认证ISO/TS 16949:2009" },
+
+        {
+          time: "2016年07月",
+          content: "统一信用代码变更为914419007673331778。"
+        },
+        {
+          time: "2013年12月",
+          content: "增加股东“株式会社MMI”，同时注册资本变更为27500万日元。"
+        },
         { time: "2013年08月", content: "迁至现在地址。" },
         {
           time: "2013年04月",
@@ -137,17 +155,17 @@ export default {
       ]
     };
   },
-  // mounted() {
-  //   $(".talk-dot").click(function() {
-  //     console.log("aaa");
-  //     $(".talk-active").removeClass("talk-active");
-  //     $(".active").removeClass("active");
-  //     $(this).addClass("active");
-  //     $(".talk-item")
-  //       .eq($(this).index())
-  //       .addClass("talk-active");
-  //   });
-  // }
+  mounted() {
+    $(".talk-dot").click(function() {
+      console.log("aaa");
+      $(".talk-active").removeClass("talk-active");
+      $(".active").removeClass("active");
+      $(this).addClass("active");
+      $(".talk-item")
+        .eq($(this).index())
+        .addClass("talk-active");
+    });
+  }
 };
 $(function() {});
 </script >
@@ -227,49 +245,55 @@ $(function() {});
 .history-item p strong {
   margin: 0 20px;
 }
+.content-item {
+  display: inline-block;
+  width: 600px;
+  vertical-align: top;
+}
 
-
+.talk-wrapper {
+  min-height: 300px;
+  position: relative;
+  margin-top: 100px;
+}
+.talk-wrapper .talk-content {
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  padding: 50px;
+}
+.talk-wrapper ul li {
+  display: none;
+}
+.talk-wrapper ul li h3 {
+  text-align: center;
+  color: #0059a0;
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+.talk-wrapper ul li p {
+  font-style: italic;
+}
+.talk-wrapper ul li.talk-active {
+  display: inline-block;
+}
+.talk-wrapper ol {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.talk-wrapper .talk-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+.talk-wrapper .talk-dot.active {
+  border: 2px solid #0059a0;
+}
 </style>
-// .talk-wrapper {
-//   min-height: 300px;
-//   position: relative;
-//   margin-top: 100px;
-// }
-// .talk-wrapper .talk-content {
-//   border: 1px solid #ccc;
-//   margin: 0 auto;
-//   width: 600px;
-//   height: 400px;
-//   padding: 50px;
-// }
-// .talk-wrapper ul li {
-//   display: none;
-// }
-// .talk-wrapper ul li h3 {
-//   text-align: center;
-//   color: #0059a0;
-//   font-weight: 550;
-//   margin-bottom: 30px;
-// }
-// .talk-wrapper ul li p {
-//   font-style: italic;
-// }
-// .talk-wrapper ul li.talk-active {
-//   display: inline-block;
-// }
-// .talk-wrapper ol {
-//   position: absolute;
-//   bottom: 50px;
-//   left: 50%;
-//   transform: translateX(-50%);
-// }
-// .talk-wrapper .talk-dot {
-//   height: 12px;
-//   width: 12px;
-//   border-radius: 50%;
-//   border: 1px solid #ccc;
-//   margin-right: 5px;
-// }
-// .talk-wrapper .talk-dot.active {
-//   border: 2px solid #0059a0;
-// }
+
+
