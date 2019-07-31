@@ -4,7 +4,7 @@
       <p class="main-title">Equipment Outline</p>
       <p
         class="device-dire"
-      >"本公司的设备从通用机到专用机，都是根据本公司的自行设计进行的安装，从而形成了一套丰富的原创型附属装置。同时，优秀的生产技术人员使本公司能够自行完成生产设备制造及修理等事宜。本公司的特点之一即日本国内与海外分公司同步保有同等水平生产设备及品质检查设备。"</p>
+      >"Since our foundation in 2004, we have constantly invested in purchasing machineriessuch as two of Japan-made most advanced machining centers, over ten sets of Japanese CNC automatic lathing and hob cutters as well as one set of our original-designed and patented high speed dry hob cutter. Recently, because Chinese machineries industries have improved their technologies and services to satisfy our requirement of high precision and quality, thus we began to select these local ones, includingautomatic ultrasonic three-tank rinsing, hob cutting, worm rolling, wire-cutter, centerless, knurling to provide various manufacturing. On the other hand, for quality assurance, Japan-made high precision measurement equipment like three-dimension, surface roughness, roundness, gear tooth matching and gear shape are all available. "</p>
     </div>
     <div class="device-show">
       <p class="device-title">Equipment</p>
@@ -140,7 +140,7 @@ export default {
 <style scoped>
 .device-dire {
   margin: 0 auto;
-  width: 700px;
+  width: 1070px;
   font-size: 16px;
   font-style: italic;
   line-height: 40px;

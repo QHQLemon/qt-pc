@@ -22,7 +22,7 @@
       <dl class="topic clearfix">
         <dt>July 5, 2019</dt>
         <dd>
-          <em>Equity Transfer</em>
+          <strong>Equity Transfer</strong>
           <br>Puhe metallurgical industry co., ltd. transferred all the equity of 5 million yen to kiyota co., LTD.
           "MMI" will transfer the equity of 25 million yen to "daeda seiko co., LTD." equity
           After the change, the capital contribution of "kiyota corporation" is 100 million yen, accounting for 36.36% of the registered capital; "Field
