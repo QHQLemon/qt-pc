@@ -36,85 +36,85 @@ export default {
       productData: [
         {
           proNo: 1,
-          proTitle: "組み合わせ歯車シリーズ",
+          proTitle: "組み合わせ",
           proDire: ["", ""],
           proImg: "/static/img/pro1.jpg"
         },
         {
           proNo: 2,
-          proTitle: "内歯車",
+          proTitle: "インターナル",
           proDire: ["", ""],
           proImg: "/static/img/pro2.jpg"
         },
         {
           proNo: 3,
-          proTitle: "直歯車シリーズ",
+          proTitle: "スバギア",
           proDire: ["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro3.jpg"
         },
         {
           proNo: 4,
-          proTitle: "斜ギア",
+          proTitle: "はスバギア",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro4.jpg"
         },
         {
           proNo: 5,
-          proTitle: "カタツムリシリーズ",
+          proTitle: "ウォームホイル",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro5.jpg"
         },
         {
           proNo: 6,
-          proTitle: "カタツムリシリーズ",
+          proTitle: "ウォーム",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro6.jpg"
         },
         {
           proNo: 7,
-          proTitle: "ベルトリングシリーズ",
+          proTitle: "プーリ",
           proDire: ["歯形：MXL/XL/S2M/S3M/T2.5/2GT/HTD3M", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro8.jpg"
         },
         {
           proNo: 8,
-          proTitle: "切削品シリーズ",
+          proTitle: "各種切削品",
           proDire: ["", ""],
           proImg: "/static/img/pro9.jpg"
         },
         {
           proNo: 9,
-          proTitle: "ワイパーシリーズ",
+          proTitle: "リードスクリュー",
           proDire: ["", ""],
           proImg: "/static/img/pro10.jpg"
         },
         {
           proNo: 10,
-          proTitle: "精密軸シリーズ",
+          proTitle: "精密軸",
           proDire: ["", ""],
           proImg: "/static/img/pro11.jpg"
         },
         {
           proNo: 11,
-          proTitle: "花健シリーズ",
+          proTitle: "スプライン",
           proDire: ["", ""],
           proImg: "/static/img/pro12.jpg"
         },
         {
           proNo: 12,
-          proTitle: "伞の歯/端面の歯",
+          proTitle: "かさ歯",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro13.jpg"
         },
         {
           proNo: 13,
-          proTitle: "粉末冶金歯車シリーズ",
+          proTitle: "焼結ギア",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro14.jpg"
         },
         {
           proNo: 14,
-          proTitle: "プラスチック歯車シリーズ",
+          proTitle: "POMギア",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro15.jpg"
         },
@@ -126,19 +126,19 @@ export default {
         },
         {
           proNo: 16,
-          proTitle: "傾斜歯軸",
+          proTitle: "ヘリカル",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro17.jpg"
         },
         {
           proNo: 17,
-          proTitle: "2段の歯車",
+          proTitle: "2段歯車",
           proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro18.jpg"
         },
         {
           proNo: 18,
-          proTitle: "歯条シリーズ",
+          proTitle: "ラック",
           proDire: ["", ""],
           proImg: "/static/img/pro19.jpg"
         },

@@ -25,22 +25,22 @@ export default{
       certData:[
         {
           certNo: 1,
-          certTitle: 'IATF16949:2016',
+          certTitle: 'IATF 16949:2016',
           certImg: '/static/img/IATF16949-2016/IATF16949-2016-2.png'
         },
          {
           certNo: 2,
-          certTitle: 'ISO13485:2016',
+          certTitle: 'EN ISO 13485:2016',
           certImg: '/static/img/ISO13485-2016/ISO13485-2016-1.png'
         },
          {
           certNo: 3,
-          certTitle: 'ISO14001:2015',
+          certTitle: 'ISO 14001:2015',
           certImg: '/static/img/ISO14001-2015/ISO14001-2015-2.png'
         },
          {
           certNo: 4,
-          certTitle: 'ISO9001:2015',
+          certTitle: 'ISO 9001:2015',
           certImg: '/static/img/ISO9001-2015/ISO9001-2015-2.png'
         },
       ],

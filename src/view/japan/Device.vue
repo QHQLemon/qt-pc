@@ -7,7 +7,7 @@
       >"弊社は、２００４年の創業以来、随時、設備投資し、最新鋭の日本製マシニングセンター２台、日系メーカーのＣＮＣ自動旋盤１０数台、日本製歯切り盤１０数台ばかりでなく、大田精工が独自設計開発し特許権を有するドライ式高速歯切り盤もラインアップ。一方、中国国内製の諸設備も技術力やサービスが向上し、弊社が求める高精密や加工や品質要求に応えることが証明されました。そこで、超音波自動三層洗浄機、ホブ盤、転造盤ワイアカット、センタレス、ローレット盤も取りそろえ、各種加工を支えています。一方、品質保証体制には、三次元、形状、真円度、歯車測定機、歯車試験機などいずれも日本製高精度な計測機器を取り揃えました。"</p>
     </div>
     <div class="device-show">
-      <p class="device-title">デバイスプレゼン</p>
+      <p class="device-title">設備のご紹介</p>
       <div class="device-img-box">
         <div class="divice-item has-shadow" v-for="item in deviceData">
           <p class="divice-name">{{item.devTitle}}</p>
@@ -24,38 +24,38 @@ export default {
     return {
       deviceData: [
         {
-          devTitle: "北村20G精密旋盤",
+          devTitle: "北村 NC 旋盤",
           devImg: "../../static/img/device/北村20G精密车床.jpg"
         },
         {
-          devTitle: "北井8-FNホビー",
+          devTitle: "北井 8FN HOB盤",
           devImg: "../../static/img/device/北井8-FN滚齿机.jpg"
         },
         {
-          devTitle: "北井HI-PRO-2Aローラー机",
+          devTitle: "北井 HIPRO 2A HOB盤",
           devImg: "../../static/img/device/北井HI-PRO-2A滚齿机.jpg"
         },
         {
-          devTitle: "北井HI-PRO-3Nローラー机",
+          devTitle: "北井 HIPRO 3N HOB盤",
           devImg: "../../static/img/device/北井HI-PRO-3N滚齿机 .jpg"
         },
         {
-          devTitle: "北井ハイ-プリオ-3Uローラー机",
+          devTitle: "北井 HIPRO 3U HOB盤",
           devImg: "../../static/img/device/北井HI-PRO-3U滚齿机.jpg"
         },
         {
-          devTitle: "浜。井60SPローラーマシン",
+          devTitle: "浜井 60SP HOB盤",
           devImg: "../../static/img/device/滨.井60SP滚齿机.jpg"
         },
         {
-          devTitle: "その科の加工センターです",
+          devTitle: "ファナック　ロボドリル　",
           devImg: "../../static/img/device/发那科加工中心.jpg"
         },
         {
-          devTitle: "豊田外円磨",
+          devTitle: "円筒研削盤",
           devImg: "../../static/img/device/丰田外圆磨.jpg"
         },
-        { devTitle: "巻き機", devImg: "../../static/img/device/滚丝机.jpg" },
+        { devTitle: "ローレット機", devImg: "../../static/img/device/滚丝机.jpg" },
         {
           devTitle: "津上B0203パソコンの旋盤",
           devImg: "../../static/img/device/津上B0203电脑车床.jpg"
@@ -69,54 +69,54 @@ export default {
           devImg: "../../static/img/device/津上MO6J车床.jpg"
         },
         {
-          devTitle: "津上MO6SD合成旋盤",
+          devTitle: "津上MO6SD複合機",
           devImg: "../../static/img/device/津上MO6SD复合加工车床.jpg"
         },
         {
-          devTitle: "六軸にワイヤーカットを行います",
+          devTitle: "六軸ワイヤーカット",
           devImg: "../../static/img/device/六轴中走丝线切割.jpg"
         },
         {
-          devTitle: "寧江YK3608転歯機",
+          devTitle: "寧江YK3608ウォーム盤",
           devImg: "../../static/img/device/宁江YK3608滚齿机.jpg"
         },
         {
-          devTitle: "栄光は無心に研ぐ",
+          devTitle: "センタレス（台湾）",
           devImg: "../../static/img/device/荣光无心磨.jpg"
         },
         {
-          devTitle: "ベッドを研ぐ気はない",
+          devTitle: "センタレス（中国）",
           devImg: "../../static/img/device/无心磨床.jpg"
         },
         {
-          devTitle: "シチズンA16コンピューター旋盤",
+          devTitle: "シチズン　A16　CNC自動旋盘",
           devImg: "../../static/img/device/西铁城A16电脑车床.jpg"
         },
         {
-          devTitle: "シチズンA20コンピューター旋盤",
+          devTitle: "シチズン　L20　CNC自動旋盘盤",
           devImg: "../../static/img/device/西铁城A20电脑车床.jpg"
         },
         {
-          devTitle: "シチズンL20パソコン旋盘",
+          devTitle: "シチズン　L20　CNC自動旋盘",
           devImg: "../../static/img/device/西铁城L20电脑车床.jpg"
         },
-        { devTitle: "円度計", devImg: "../../static/img/device/圆度仪.jpg" },
+        { devTitle: "ミツトョ　真円度測定機", devImg: "../../static/img/device/圆度仪.jpg" },
         { devTitle: "2.5次元", devImg: "../../static/img/device/2.5次元.jpg" },
         {
-          devTitle: "歯車テスタ",
+          devTitle: "大阪精密歯車試験機",
           devImg: "../../static/img/device/齿轮测试仪.jpg"
         },
         {
-          devTitle: "歯車噛合器",
+          devTitle: "大阪精密歯車噛み合い機",
           devImg: "../../static/img/device/齿轮啮合仪.jpg"
         },
-        { devTitle: "輪郭計", devImg: "../../static/img/device/轮廓仪.jpg" },
+        { devTitle: "ミツトョ　形状測定機", devImg: "../../static/img/device/轮廓仪.jpg" },
         {
-          devTitle: "三豊三次元",
+          devTitle: "ミツトョ　三次元機",
           devImg: "../../static/img/device/三丰三次元.jpg"
         },
         {
-          devTitle: "掃除室",
+          devTitle: "超音波自動洗浄機",
           devImg: "../../static/img/device/wash.jpg"
         },
       ]

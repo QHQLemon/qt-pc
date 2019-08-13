@@ -2,8 +2,8 @@
   <div>
     <div class="container intro-consult">
       <div class="intro-consult-inner">
-        <p>もしあなたが私達についてもっと情報を知りたいなら</p>
-        <router-link class="btn btn-defalut my-btn" to="/Japanese/consult">私たちに連絡してください</router-link>
+        <p>お問い合わせは下記からお願いします</p>
+        <router-link class="btn btn-defalut my-btn" to="/Japanese/consult">こちらです</router-link>
       </div>
     </div>
     <div class="m-footer-wrapper">
@@ -11,7 +11,7 @@
         <div class="col-lg-6">
           <!-- <p class="company-name">东莞清田精密齿轮有限公司</p> -->
           <p class="company-name">東莞清田精密歯車有限公司</p>
-          <p>住所:広东省东莞市虎门镇陈村コミュニティ厚虎路22番</p>
+          <p>住所:広东省东莞市虎门镇陈村社区厚虎路22号</p>
           <p>TEL :+86-76 -8523 - 261-2子机828</p>
           <p>FAX : + 86- 7639 -85235270</p>
           <p>E-mail：sales@kiyotadg.com</p>

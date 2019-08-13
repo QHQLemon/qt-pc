@@ -47,7 +47,7 @@
 
       <div class="life-item">
         <p>
-          <span class="glyphicon glyphicon-bell"></span>しょうか演習
+          <span class="glyphicon glyphicon-bell"></span>消防演習
         </p>
         <div class="img-wrapper clearfix">
           <div class="img-item col-lg-4">

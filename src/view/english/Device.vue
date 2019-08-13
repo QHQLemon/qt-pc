@@ -128,7 +128,7 @@ export default {
           devImg: "../../static/img/device/三丰三次元.jpg"
         },
         {
-          devTitle: "Wash room",
+          devTitle: "Automatic ultrasonic cleaning machine",
           devImg: "../../static/img/device/wash.jpg"
         },
       ]

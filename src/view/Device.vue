@@ -116,7 +116,7 @@ export default {
           devImg: "../../static/img/device/三丰三次元.jpg"
         },
         {
-          devTitle: "清洗房",
+          devTitle: "超声波自动清洗机",
           devImg: "../../static/img/device/wash.jpg"
         },
       ]
