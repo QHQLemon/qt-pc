@@ -7,7 +7,7 @@
     <router-link tag="li" :to="{name: 'jProduct'}">製品</router-link>
     <router-link tag="li" :to="{name: 'jDevice'}">設備</router-link>
     <router-link tag="li" :to="{name: 'jCert'}">証書</router-link>
-    <router-link tag="li" :to="{name: 'jLife'}">清田生活</router-link>
+    <router-link tag="li" :to="{name: 'jLife'}">社内生活</router-link>
     <router-link tag="li" :to="{name: 'jBranch'}">関連会社</router-link>
     <router-link tag="li" :to="{name: 'jConsult'}">お問い合わせ</router-link>
   </div>

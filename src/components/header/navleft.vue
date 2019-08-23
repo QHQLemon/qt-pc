@@ -7,7 +7,7 @@
     <router-link tag="li" to="/product">产品</router-link>
     <router-link tag="li" to="/device">设备</router-link>
     <router-link tag="li" to="/cert">证书</router-link>
-    <router-link tag="li" to="/life">清田生活</router-link>
+    <router-link tag="li" to="/life">社内生活</router-link>
     <router-link tag="li" to="/branch">全球网点</router-link>
     <router-link tag="li" to="/consult">咨询</router-link>
   </div>

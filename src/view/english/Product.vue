@@ -36,7 +36,7 @@ export default {
       productData: [
         {
           proNo: 1,
-          proTitle: "Combination gear series",
+          proTitle: "Combination gear",
           proDire: ["", ""],
           proImg: "/static/img/pro1.jpg"
         },
@@ -48,7 +48,7 @@ export default {
         },
         {
           proNo: 3,
-          proTitle: "Straight gear series",
+          proTitle: "Spur series",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro3.jpg"
         },
@@ -60,13 +60,13 @@ export default {
         },
         {
           proNo: 5,
-          proTitle: "Worm gear series",
+          proTitle: "Worm wheel",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro5.jpg"
         },
         {
           proNo: 6,
-          proTitle: "Worm series",
+          proTitle: "Worm gear",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro6.jpg"
         },
@@ -78,49 +78,49 @@ export default {
         },
         {
           proNo: 8,
-          proTitle: "Cutting products series",
+          proTitle: "Cutting products",
           proDire: ["", ""],
           proImg: "/static/img/pro9.jpg"
         },
         {
           proNo: 9,
-          proTitle: "Screw series",
+          proTitle: "Leadscrew",
           proDire: ["", ""],
           proImg: "/static/img/pro10.jpg"
         },
         {
           proNo: 10,
-          proTitle: "Precision shaft series",
+          proTitle: "Precision shaft ",
           proDire: ["", ""],
           proImg: "/static/img/pro11.jpg"
         },
         {
           proNo: 11,
-          proTitle: "Take health series",
+          proTitle: "Spline products",
           proDire: ["", ""],
           proImg: "/static/img/pro12.jpg"
         },
         {
           proNo: 12,
-          proTitle: "Umbrella teeth/end teeth series",
+          proTitle: "Bevel gear",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro13.jpg"
         },
         {
           proNo: 13,
-          proTitle: "PM gear series",
+          proTitle: "Sinter gear products",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro14.jpg"
         },
         {
           proNo: 14,
-          proTitle: "Plastic gear series",
+          proTitle: "Plastic material gear products",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro15.jpg"
         },
         {
           proNo: 15,
-          proTitle: "Shaft gear",
+          proTitle: "Spur gear shaft",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro16.jpg"
         },
@@ -132,19 +132,19 @@ export default {
         },
         {
           proNo: 17,
-          proTitle: "Two pieces of gear",
+          proTitle: "Double reduction gear ",
           proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro18.jpg"
         },
         {
           proNo: 18,
-          proTitle: "Rack series",
+          proTitle: "rack products",
           proDire: ["", ""],
           proImg: "/static/img/pro19.jpg"
         },
         {
           proNo: 19,
-          proTitle: "Assembly series",
+          proTitle: "Assembly products",
           proDire: ["", ""],
           proImg: "/static/img/pro20.jpg"
         },

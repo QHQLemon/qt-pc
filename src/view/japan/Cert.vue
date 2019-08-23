@@ -1,6 +1,6 @@
 <template>
   <div class="cert-wrapper container">
-    <p class="main-title">資質証明書</p>
+    <p class="main-title">資格証明書</p>
     <div class="cert-content">
       <div class="col-lg-4">
         <ul class="item-box">

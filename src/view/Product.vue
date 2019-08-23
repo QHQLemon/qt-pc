@@ -16,19 +16,6 @@
                 @click="changeIndex(item)"
               >{{item.proTitle}}</li>
             </ul>
-          <!-- </li> -->
-          <!-- <li class="main"><span>检测结果展示</span>
-            <ul class="product-wrapper">
-              <li class="product-item">齿轮的齿形、齿向检测结果(JIS)</li>
-              <li class="product-item">齿轮的齿距、跳动检测结果(JIS)</li>
-              <li class="product-item">齿轮的齿形、齿向检测结果(ISO)</li>
-              <li class="product-item">齿轮的齿距、跳动检测结果(ISO)</li>
-              <li class="product-item">蜗杆的齿形、齿向检测结果</li>
-              <li class="product-item">蜗杆齿距、跳动检测结果</li>
-              <li class="product-item">齿轮的啮合结果(JIS/ISO)</li>
-              <li class="product-item">齿轮的啮合结果(JGMA)</li>
-            </ul>
-          </li>-->
         </div>
       </div>
       <div class="intro-show-right col-lg-8">

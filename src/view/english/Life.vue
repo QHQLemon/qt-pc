@@ -2,10 +2,10 @@
   <div class="life-wrapper container">
 
     <div class="life-img-wrapper">
-      <p class="life-img-title">Rich Variety of Events</p>
+      <p class="life-img-title">Variety activities and events</p>
       <div class="life-item">
         <p>
-          <span class="glyphicon glyphicon-bell"></span>Team-building Activities
+          <span class="glyphicon glyphicon-bell"></span>Team work
         </p>
         <div class="img-wrapper clearfix">
           <div class="img-item col-lg-4">
@@ -31,7 +31,7 @@
 
       <div class="life-item">
         <p>
-          <span class="glyphicon glyphicon-bell"></span>Annual Meeting
+          <span class="glyphicon glyphicon-bell"></span>Annual dinner
         </p>
         <div class="img-wrapper clearfix">
           <div class="img-item col-lg-4">
@@ -71,35 +71,35 @@
             <span class="glyphicon glyphicon-yen"></span>
           </p>
           <p class="profit-title">Salary </p>
-          <p class="profit-dir">Offer a competitive monthly salary</p>
+          <p class="profit-dir">Attractive monthly salary</p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-gift"></span>
           </p>
           <p class="profit-title">Bonus</p>
-          <p class="profit-dir">The year-end double pay</p>
+          <p class="profit-dir">Year-end double income</p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-time"></span>
           </p>
-          <p class="profit-title">Attendance</p>
-          <p class="profit-dir">Five-day eight-hour work week, overtime is extra</p>
+          <p class="profit-title">Work day and time</p>
+          <p class="profit-dir">Eight-hour/day & five-day/week system, other job hours count in overtime. </p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-bed"></span>
           </p>
-          <p class="profit-title">Vcation</p>
-          <p class="profit-dir">In addition, you can enjoy 7 days' paid leave after one year's service, 10 days' paid leave after three to five years' service, and 14 days' paid leave after six years' service</p>
+          <p class="profit-title">Paid holidays</p>
+          <p class="profit-dir">7 days for over one year career employees, 10 days for 3-5 years, 14 days for over 6 years.  </p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-pushpin"></span>
           </p>
           <p class="profit-title">Insurance</p>
-          <p class="profit-dir">In addition to handling social insurance in accordance with the law, the company will purchase additional commercial insurance for its employees</p>
+          <p class="profit-dir">Legal social insurance and other commercial insurance provided.</p>
         </div>
       </div>
     </div>

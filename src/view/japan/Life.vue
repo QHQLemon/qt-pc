@@ -4,7 +4,7 @@
       <p class="life-img-title">多彩な活動</p>
       <div class="life-item">
         <p>
-          <span class="glyphicon glyphicon-bell"></span>団創立活動
+          <span class="glyphicon glyphicon-bell"></span>チームワーク
         </p>
         <div class="img-wrapper clearfix">
           <div class="img-item col-lg-4">
@@ -71,36 +71,36 @@
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-yen"></span>
           </p>
-          <p class="profit-title">賃金</p>
-          <p class="profit-dir">競争力のある賃金を支給する</p>
+          <p class="profit-title">給料</p>
+          <p class="profit-dir">魅力的な給与</p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-gift"></span>
           </p>
-          <p class="profit-title">賞金</p>
-          <p class="profit-dir">年末の二重賃金</p>
+          <p class="profit-title">ボーナス</p>
+          <p class="profit-dir">年末支給</p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-time"></span>
           </p>
           <p class="profit-title">出勤</p>
-          <p class="profit-dir">5日8時間勤務制,残業は別枠である</p>
+          <p class="profit-dir">平日８時間５日制、それ以外は残業扱い</p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-bed"></span>
           </p>
-          <p class="profit-title">休暇</p>
-          <p class="profit-dir">また、国家法定休暇制度を実施する場合、1年に7日の有給休暇を、3 ~ 5年には10日の有給休暇が、6年以上では14日の有給休暇が取れる</p>
+          <p class="profit-title">休日</p>
+          <p class="profit-dir">国家法定休暇制度を実施、1年勤務後に7日の有給休暇を、3 ~ 5年勤務には10日の有給休暇が、6年以上では14日の有給休暇取得</p>
         </div>
         <div class="profit-item">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-pushpin"></span>
           </p>
           <p class="profit-title">保険</p>
-          <p class="profit-dir">法律で定められている社会保険のほかに、会社は従業員のために付加的な商業保険を購入します</p>
+          <p class="profit-dir">法定社会保険以外、別途追加の保険に加入</p>
         </div>
       </div>
     </div>

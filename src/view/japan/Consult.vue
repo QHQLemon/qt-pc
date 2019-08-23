@@ -2,7 +2,7 @@
   <div class="consult-wrapper container">
     <div class="consult-content">
       <p class="main-title">お問い合わせ</p>
-      <p>ご情報とお問い合わせ内容をご記入下さい</p>
+      <p>下記フォーム内の項目にご記入の上、確認ボタンを押して送信してください。</p>
       <hr >
       <div class="form-horizontal">
         <div class="form-group">
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="inputContent"  class="col-sm-3 control-label">問い合わせ内容</label>
+          <label for="inputContent"  class="col-sm-3 control-label">お問い合わせ内容</label>
           <div class="col-sm-9">
             <textarea class="form-control" v-model="cContent" name="" id=""  rows="6" placeholder="問い合わせ内容"></textarea>
           </div>

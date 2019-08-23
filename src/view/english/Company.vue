@@ -4,49 +4,44 @@
       <div class="company-intro-top">
         <p class="company-intro-title">DONGGUAN KIYOTA PRECISION CO., LTD</p>
         <p class="company-intro-item">
-          <strong>DONGGUAN KIYOTA PRECISION CO., LTD</strong> founded in October 2004, is a foreign joint venture enterprise specializing in the production of precision gear, specializing in the production of gear (flat gear / helical gear / worm), transmission shaft and various mechanical parts. Since the formal operation in May 2005, our company has been expanding and improving processing and testing equipment to meet customer requirements. The pursuit of high quality and better service is our consistent goal, we hope to establish friendly relations of cooperation with customers, joint efforts, to develop the unlimited potential of the market, here welcome you to contact our company.
+          DKP, a Japanese sole-invested company was incorporated in Oct. 2004 in Humen, Dongguan city, Guandong province, China.
+          Main products are module small precison hob-cut gears such as standard, helical, pulley and worm.
+          Others include transmission shaft, housing, rotator and many sorts of cut or lathed parts.
+          In future, we will make a continuous pursuit to achieve customers' satisfaction for quality, cost and delivery.
         </p>
       </div>
       <div class="company-intro-bottom">
         <div class="col-lg-6 company-intro-bottom-left">
           <p class="company-title">Quality policy</p>
           <p class="company-quality-inner-title">
-            <span class="glyphicon glyphicon-ok"></span>Quality first
+            <span class="glyphicon glyphicon-ok"></span>Quality uppermost
           </p>
-          <p
-            class="company-quality-inner"
-          >The company to do well in products as the primary work to meet customer requirements.</p>
+          <p class="company-quality-inner">Aim at claim zero.</p>
           <p class="company-quality-inner-title">
-            <span class="glyphicon glyphicon-ok"></span>Adherence to satisfied
+            <span class="glyphicon glyphicon-ok"></span>Delivery comittment
           </p>
-          <p
-            class="company-quality-inner"
-          >Strictly comply with customer requirements for delivery on time.</p>
+          <p class="company-quality-inner">Keep the date is our motto.</p>
           <p class="company-quality-inner-title">
-            <span class="glyphicon glyphicon-ok"></span>Reduce the cost
+            <span class="glyphicon glyphicon-ok"></span>Cost reduction
           </p>
-          <p class="company-quality-inner">Reduce waste, reduce cost and improve work efficiency.</p>
+          <p class="company-quality-inner">Review the cost through process Kaizen and no 3M ways.</p>
           <p class="company-quality-inner-title">
-            <span class="glyphicon glyphicon-ok"></span>Continuous improvement
+            <span class="glyphicon glyphicon-ok"></span>Various actions to improve
           </p>
-          <p
-            class="company-quality-inner"
-          >Improve the quality system, so that work procedures, standardization, and constantly improve the quality of products.</p>
+          <p class="company-quality-inner">ISO, 5S, suggestion activities enhance the quality.</p>
           <p class="company-quality-inner-title">
-            <span class="glyphicon glyphicon-ok"></span>Innovation
+            <span class="glyphicon glyphicon-ok"></span>Technology improvement
           </p>
-          <p
-            class="company-quality-inner"
-          >All staff have the courage to innovate and master new rules, new knowledge and new skills.</p>
+          <p class="company-quality-inner">Make an effort to create technology innovation.</p>
         </div>
         <div class="col-lg-6 company-intro-bottom-right">
-          <img src="../../assets/img/company.jpg" alt>
+          <img src="../../assets/img/company.jpg" alt />
         </div>
       </div>
     </div>
     <div class="company-simple">
       <div class="container">
-        <p class="company-title">Company profile</p>
+        <p class="company-title">Company Profile</p>
         <p v-for="(item, index) in companySimple" class="company-simple-item">
           <strong>{{item.title}}</strong>
           {{item.content}}
@@ -54,7 +49,7 @@
       </div>
     </div>
     <div class="container company-history">
-      <p class="company-title">Corporate history</p>
+      <p class="company-title">Corporate History</p>
       <div class="history-item" v-for="item in companyHistory">
         <span class="glyphicon glyphicon-record"></span>
         <p>
@@ -63,30 +58,6 @@
         </p>
       </div>
     </div>
-
-    <!-- <div class="talk-wrapper">
-      <ol>
-        <li class="talk-dot active"></li>
-        <li class="talk-dot"></li>
-        <li class="talk-dot"></li>
-      </ol>
-      <ul class="talk-content has-shadow">
-        <li class="talk-item talk-active">
-          <h3>Our belief</h3>
-          <p>"We live and contribute to society through manufacturing industry."</p>
-          <p>"In manufacturing, the most important thing is to keep promises including quality, delivery and price committed with the customers."</p>
-          <p>"Our belief is to sustain within severe competition these days while carrying forward through rationalization and technology improvement."</p>
-        </li>
-        <li class="talk-item">
-          <h3>Business Philosophy</h3>
-          <p>"We believe that the development of our company can contribute to the society and enrich the life of every employee”</p>
-        </li>
-        <li class="talk-item">
-          <h3>Environmental Policy</h3>
-          <p>"Protecting the environment is our common responsibility to abide by environmental laws and regulations and enhance environmental awareness; Standardize operation process, control pollution by science and technology: innovate energy saving and consumption reduction, implement environmental indicators; Full participation in control, continuous improvement."</p>
-        </li>
-      </ul>
-    </div> -->
   </div>
 </template>
 
@@ -96,75 +67,82 @@ export default {
     return {
       companySimple: [
         {
-          title: "Company Name ",
+          title: "COMPANY NAME ",
           content: "DONGGUAN KIYOTA PRECISION CO., LTD"
         },
         {
-          title: "Address",
+          title: "LOCATION",
           content:
-            "No.22, houhu road, chencun community industrial zone, humen town, dongguan city"
+            "No.22, Houhu road,ChenCun Village,HuMen Town,DongGuan City GuangDong Province"
         },
         {
-          title: "Types",
-          content: "Limited liability company (foreign joint venture)"
+          title: "COMPANY STYLE",
+          content: "LOCAL COMPANY LIMITED (INVESTED BY JAPANESE ONLY)"
         },
         {
-          title: "Registering Capital",
-          content: "Two hundred seventy-five million yen"
+          title: "CAPITAL",
+          content: "275 MILLION YEN"
         },
-        { title: "Area", content: "2232㎡" },
+        { title: "AREA", content: "2232㎡" },
         {
-          title: "Business Scope",
+          title: "BUSINESS SCOPE",
           content:
             "Production and sales of gear, shaft and mechanical spare parts"
         },
-        { title: "Legal representative", content: "青山成昭" },
-        { title: "Register Date", content: "October 26, 2004" },
-        { title: "Registration ID", content: "914419007673331778" },
+        { title: "REPRESENTIVE", content: "AOYAMA Shigeaki (Mr)" },
+        { title: "INCORPORATION", content: "26th, Oct, 2004 " },
+        { title: "COMPANY ID#", content: "914419007673331778" },
         { title: "TEL", content: "86-769-85235261/262" },
         { title: "FAX", content: "86-769-85235270" },
-        { title: "Email", content: " sales@kiyotadg.com " },
-        { title: "Url", content: " www.kiyotadg.com" },
-        { title: "Zip Code", content: "523922" },
-        { title: "Staff", content: "80" }
+        { title: "EMAIL", content: " sales@kiyotadg.com " },
+        { title: "URL", content: " www.kiyotadg.com" },
+        { title: "ZIP", content: "523922" },
+        { title: "EMPLOYEES", content: "80" }
       ],
       companyHistory: [
         {
           time: "2019.July",
-          content: `“浦和冶金工业株式会社”将全部股权转让给“清田株式会社”，
-                    “株式会社MMI”将全部股权转让给“大田精工株式会社”，
-                    同时董事会成员变更。`
+          content: `Urawa Yakin Kogyo Co.,Ltd transfered all shared stocks to Kiyota Co.,Ltd. MMI Co.,Ltd transferred all shared stocks to Ohta Seiko Co., Ltd. The board members have been changed accordingly.`
         },
-        { time: "2018.11", content: "Replacement IATF 16949:2016." },
+        { time: "2018.Nov", content: " IATF 16949:2016 renewed." },
 
-        { time: "2018.Mar", content: "The term of operation is changed to long term." },
-        { time: "2018.Mar", content: "EN ISO 13485:2016." },
-        { time: "2017.Dec", content: "Replacement ISO 14001:2015." },
-        { time: "2017.Dec", content: "Replacement ISO 9001:2015." },
-        { time: "2016.Sep", content: "ISO/TS 16949:2009." },
-        { time: "2016.July", content: "The unified credit code is changed to 914419007673331778." },
-        { time: "2013.Dec", content: 'Increase the shareholder "MMI" and change the registered capital to 275m yen.' },
+        {
+          time: "2018.Mar",
+          content: "Company license duration changed for long time"
+        },
+        { time: "2018.Mar", content: "EN ISO 13485:2016 certified." },
+        { time: "2017.Dec", content: "ISO 14001:2015 renewed." },
+        { time: "2017.Dec", content: "ISO 9001:2015 renewed." },
+        { time: "2016.Sep", content: "ISO/TS 16949:2009 certified." },
+        {
+          time: "2016.July",
+          content: "Company ID# changed to 914419007673331778."
+        },
+        {
+          time: "2013.Dec",
+          content:
+            "Total capital amount increased up to 275 million yen by invested by MMI."
+        },
         { time: "2013.Aug", content: "Move to present address." },
         {
           time: "2013.Apr",
-          content: `The legal representative shall be changed to "castle peak chengzhao", and the members of the board of directors shall be changed at the same time.`
+          content: `Company representative changed to AOYAM Shigeaki and the board members changed accordingly. `
         },
         {
           time: "2013.Apr",
-          content: `Daeda seiko co., LTD." invests 50 million and obtains the right to transfer shares, with a total capital of 250 million yen.`
+          content: `Ohta Seiko Co.,Ltd invested 50 million yen to acquired the right of management from Kiyota Co.,Ltd. Total capital amount increased up to 250 million yen.`
         },
-        { time: "2012.Feb", content: "The certification of ISO9001:2008" },
-        { time: "2011.Apr", content: "Change of board members." },
+        { time: "2012.Feb", content: "ISO9001:2008 certified." },
+        { time: "2011.Apr", content: "Board member changed." },
         {
           time: "2010.Jan",
           content:
-            "Additional capital of 40 million yen, the total capital of 20 million yen."
+            " 40 million yen invested and the total capital amount increased up to 200 million yen."
         },
-        { time: "2009.Nov", content: "Certification, ISO14001:2004." },
+        { time: "2009.Nov", content: "ISO14001:2004 certified." },
         {
           time: "2007.May ",
-          content:
-            "Additional capital of 80 million yen, the total capital of 160 million yen."
+          content: "Company representative changed to KINOSHITA Akio. "
         },
         {
           time: "2005.Oct",
@@ -173,7 +151,7 @@ export default {
         {
           time: "2004.Oct",
           content:
-            "Established in humen town chigang foreign economic zone, capital 80 million yen."
+            "Incorporated in Humen Chigang.  The invested capital : 80 million yen. "
         }
       ]
     };

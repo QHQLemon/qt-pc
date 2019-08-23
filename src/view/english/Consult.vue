@@ -2,7 +2,7 @@
   <div class="consult-wrapper container">
     <div class="consult-content">
       <p class="main-title">Contact</p>
-      <p>Please fill in your information and the content you wish to consult</p>
+      <p>Please transmit and please push the confirmation button, after I enter it in an/the item in the case that mail inquires it.</p>
       <hr >
       <div class="form-horizontal">
         <div class="form-group">
@@ -18,9 +18,9 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPhone" class="col-sm-3 control-label">TEL</label>
+          <label for="inputPhone" class="col-sm-3 control-label">Phone Number</label>
           <div class="col-sm-9">
-            <input type="text" v-model="cPhone" class="form-control" id="inputPhone" placeholder="TEL">
+            <input type="text" v-model="cPhone" class="form-control" id="inputPhone" placeholder="Phone Number">
           </div>
         </div>
         <div class="form-group">

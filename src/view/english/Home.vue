@@ -3,12 +3,12 @@
     <div class="home-intro-top container">
       <div class="col-lg-4 intro-left">
         <p class="intro-title">
-          DONGGUAN KIYOTA PRECISION CO., LTD,
-          Challenge the world standard of international smes
+          Dongguan Kiyota Precision Co.,Ltd (DKP),
+          Japanese gear maker, globally challenging in the market around the world.
         </p>
-        <p>The company has a high quality precision cutting technology level, in the form of more kinds and less quantity, production and processing of semiconductor manufacturing equipment and automotive production equipment and other complex parts mainly; In the form of mass production, precision cutting parts are made -- digital cameras or small motor gears, industrial equipment parts, etc. The sales field covers Asia, Europe and America.</p>
+        <p>Gears have been long and widely spread and used in our daily lives, which can be seen wisdom of human beings. Nowadays they came to symbolize the industry,  with these mechanical elements supporting broad range of drive parts of motors and transmissions for industrial machineries, vehicles and medical equipment. DKP's precison gear cutting technology has played an important role of the development in motor industories both Japan and abroad. </p>
         <p>
-          <router-link tag="span" to="/company" class="btn btn-lg my-btn btn-default">learn more</router-link>
+          <router-link tag="span" to="/company" class="btn btn-lg my-btn btn-default">For more in details, click here.</router-link>
         </p>
       </div>
       <div class="col-lg-8">
@@ -18,16 +18,12 @@
 
 
     <div class="info-wrapper container">
-      <h3>Notice from DONGGUAN KIYOTA PRECISION CO., LTD</h3>
+      <h3>Notice from DKP</h3>
       <dl class="topic clearfix">
         <dt>July 5, 2019</dt>
         <dd>
-          <strong>Equity Transfer</strong>
-          <br>Puhe metallurgical industry co., ltd. transferred all the equity of 5 million yen to kiyota co., LTD.
-          "MMI" will transfer the equity of 25 million yen to "daeda seiko co., LTD." equity
-          After the change, the capital contribution of "kiyota corporation" is 100 million yen, accounting for 36.36% of the registered capital; "Field
-          Seiko corporation "contributed 175 million yen, accounting for 63.64% of the registered capital.
-          Also conduct board member changes
+          <strong>Stock transfer </strong>
+          <br>Urawa Yakin Kogyo Co., Ltd. transferred all their shhared stock of 5 million yen to Kiyota Co., Ltd.  Man Machine Interface Co., Ltd (MMI) transferd all their shared stocks of 25 million yen to Ohta Seiko Co., LTD.  This stock transfer resulted as following amounts and ratio as Ohta Seiko (175 million yen : 63.64%) and Kiyota (100 million yen : 36.36%).  The board members have changed accordingly.
           <br>
         </dd>
       </dl>

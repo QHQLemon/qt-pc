@@ -2,7 +2,7 @@
   <div class="consult-wrapper container">
     <div class="consult-content">
       <p class="main-title">咨询方式</p>
-      <p>请填写您的信息以及想要咨询的内容</p>
+      <p>请填写下记表格内信息后按确定键发送</p>
       <hr >
       <div class="form-horizontal">
         <div class="form-group">

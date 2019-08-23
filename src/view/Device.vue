@@ -24,27 +24,27 @@ export default {
     return {
       deviceData: [
         {
-          devTitle: "北村20G精密车床",
+          devTitle: "北村 N C车床",
           devImg: "../../static/img/device/北村20G精密车床.jpg"
         },
         {
-          devTitle: "北井8-FN滚齿机",
+          devTitle: "北井 8FN 滚齿机",
           devImg: "../../static/img/device/北井8-FN滚齿机.jpg"
         },
         {
-          devTitle: "北井HI-PRO-2A滚齿机",
+          devTitle: "北井 HIPRO 2A 滚齿机",
           devImg: "../../static/img/device/北井HI-PRO-2A滚齿机.jpg"
         },
         {
-          devTitle: "北井HI-PRO-3N滚齿机 ",
+          devTitle: "北井 HIPRO 3N 滚齿机 ",
           devImg: "../../static/img/device/北井HI-PRO-3N滚齿机 .jpg"
         },
         {
-          devTitle: "北井HI-PRO-3U滚齿机",
+          devTitle: "北井 HIPRO3U 滚齿机",
           devImg: "../../static/img/device/北井HI-PRO-3U滚齿机.jpg"
         },
         {
-          devTitle: "滨.井60SP滚齿机",
+          devTitle: "滨井 60SP 滚齿机",
           devImg: "../../static/img/device/滨.井60SP滚齿机.jpg"
         },
         {
@@ -52,24 +52,24 @@ export default {
           devImg: "../../static/img/device/发那科加工中心.jpg"
         },
         {
-          devTitle: "丰田外圆磨",
+          devTitle: "外圆磨",
           devImg: "../../static/img/device/丰田外圆磨.jpg"
         },
         { devTitle: "滚丝机", devImg: "../../static/img/device/滚丝机.jpg" },
         {
-          devTitle: "津上B0203电脑车床",
+          devTitle: "津上 B0203 电脑车床",
           devImg: "../../static/img/device/津上B0203电脑车床.jpg"
         },
         {
-          devTitle: "津上M06J",
+          devTitle: "津上 M06J 车床",
           devImg: "../../static/img/device/津上M06J.jpg"
         },
         {
-          devTitle: "津上MO6J车床",
+          devTitle: "津上 M06J 车床",
           devImg: "../../static/img/device/津上MO6J车床.jpg"
         },
         {
-          devTitle: "津上MO6SD复合加工车床",
+          devTitle: "津上 MO6SD 复合加工车床",
           devImg: "../../static/img/device/津上MO6SD复合加工车床.jpg"
         },
         {
@@ -77,40 +77,41 @@ export default {
           devImg: "../../static/img/device/六轴中走丝线切割.jpg"
         },
         {
-          devTitle: "宁江YK3608滚齿机",
+          devTitle: "宁江 YK3608 滚齿机",
           devImg: "../../static/img/device/宁江YK3608滚齿机.jpg"
         },
         {
-          devTitle: "荣光无心磨",
+          devTitle: "无心磨床（台湾）",
           devImg: "../../static/img/device/荣光无心磨.jpg"
         },
         {
-          devTitle: "无心磨床",
+          devTitle: "无心磨床（中国）",
           devImg: "../../static/img/device/无心磨床.jpg"
         },
         {
-          devTitle: "西铁城A16电脑车床",
+          devTitle: "西铁城 A16 CNC自动车床",
           devImg: "../../static/img/device/西铁城A16电脑车床.jpg"
         },
         {
-          devTitle: "西铁城A20电脑车床",
+          devTitle: "西铁城 A20 CNC自动车床",
           devImg: "../../static/img/device/西铁城A20电脑车床.jpg"
         },
         {
-          devTitle: "西铁城L20电脑车床",
+          devTitle: "西铁城 L20 CNC自动车床",
           devImg: "../../static/img/device/西铁城L20电脑车床.jpg"
         },
-        { devTitle: "圆度仪", devImg: "../../static/img/device/圆度仪.jpg" },
-        { devTitle: "2.5次元", devImg: "../../static/img/device/2.5次元.jpg" },
+
+        { devTitle: "三丰圆度仪", devImg: "../../static/img/device/圆度仪.jpg" },
+        { devTitle: "2.5次元 測定機", devImg: "../../static/img/device/2.5次元.jpg" },
         {
-          devTitle: "齿轮测试仪",
+          devTitle: "大阪精密齿轮测试仪",
           devImg: "../../static/img/device/齿轮测试仪.jpg"
         },
         {
-          devTitle: "齿轮啮合仪",
+          devTitle: "大阪精密齿轮啮合仪",
           devImg: "../../static/img/device/齿轮啮合仪.jpg"
         },
-        { devTitle: "轮廓仪", devImg: "../../static/img/device/轮廓仪.jpg" },
+        { devTitle: "三丰轮廓仪", devImg: "../../static/img/device/轮廓仪.jpg" },
         {
           devTitle: "三丰三次元",
           devImg: "../../static/img/device/三丰三次元.jpg"

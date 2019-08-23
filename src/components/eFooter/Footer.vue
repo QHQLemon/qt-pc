@@ -2,8 +2,8 @@
   <div>
     <div class="container intro-consult">
       <div class="intro-consult-inner">
-        <p>If you want to know more about us</p>
-        <router-link class="btn btn-defalut my-btn" to="/English/consult">Please contact us</router-link>
+        <p>For any enquiry</p>
+        <router-link class="btn btn-defalut my-btn" to="/English/consult">Contact from here</router-link>
       </div>
     </div>
     <div class="m-footer-wrapper">
