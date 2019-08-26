@@ -12,7 +12,7 @@
       </div>
       <div class="company-intro-bottom">
         <div class="col-lg-6 company-intro-bottom-left">
-          <p class="company-title">Quality policy</p>
+          <p class="company-title">Company Policy</p>
           <p class="company-quality-inner-title">
             <span class="glyphicon glyphicon-ok"></span>Quality uppermost
           </p>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="container company-history">
-      <p class="company-title">Corporate History</p>
+      <p class="company-title">Company History</p>
       <div class="history-item" v-for="item in companyHistory">
         <span class="glyphicon glyphicon-record"></span>
         <p>
@@ -95,7 +95,7 @@ export default {
         { title: "TEL", content: "86-769-85235261/262" },
         { title: "FAX", content: "86-769-85235270" },
         { title: "EMAIL", content: " sales@kiyotadg.com " },
-        { title: "URL", content: " www.kiyotadg.com" },
+        { title: "URL", content: " https://www.kiyotadg.com" },
         { title: "ZIP", content: "523922" },
         { title: "EMPLOYEES", content: "80" }
       ],
@@ -108,7 +108,7 @@ export default {
 
         {
           time: "2018.Mar",
-          content: "Company license duration changed for long time"
+          content: "Company license duration changed for long time."
         },
         { time: "2018.Mar", content: "EN ISO 13485:2016 certified." },
         { time: "2017.Dec", content: "ISO 14001:2015 renewed." },
@@ -132,14 +132,14 @@ export default {
           time: "2013.Apr",
           content: `Ohta Seiko Co.,Ltd invested 50 million yen to acquired the right of management from Kiyota Co.,Ltd. Total capital amount increased up to 250 million yen.`
         },
-        { time: "2012.Feb", content: "ISO9001:2008 certified." },
+        { time: "2012.Feb", content: "ISO 9001:2008 certified." },
         { time: "2011.Apr", content: "Board member changed." },
         {
           time: "2010.Jan",
           content:
             " 40 million yen invested and the total capital amount increased up to 200 million yen."
         },
-        { time: "2009.Nov", content: "ISO14001:2004 certified." },
+        { time: "2009.Nov", content: "ISO 14001:2004 certified." },
         {
           time: "2007.May ",
           content: "Company representative changed to KINOSHITA Akio. "

@@ -6,7 +6,7 @@
     <div class="intro-show container">
       <div class="intro-show-left col-lg-4">
         <div class="total clearfix">
-            <span>製品目録</span>
+            <span>加工可能製品群</span>
             <ul class="product-wrapper">
               <li
                 class="product-item"
@@ -49,31 +49,31 @@ export default {
         {
           proNo: 3,
           proTitle: "スパギア",
-          proDire: ["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire: ["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro3.jpg"
         },
         {
           proNo: 4,
           proTitle: "ヘリカルギア",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro4.jpg"
         },
         {
           proNo: 5,
           proTitle: "ウォームホイル製品群",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro5.jpg"
         },
         {
           proNo: 6,
           proTitle: "ウォームギア製品群",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro6.jpg"
         },
         {
           proNo: 7,
           proTitle: "プーリ製品群",
-          proDire: ["歯形：MXL/XL/S2M/S3M/T2.5/2GT/HTD3M", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire: ["歯形：MXL/XL/S2M/S3M/T2.5/2GT/HTD3M等及び他の特殊歯型", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro8.jpg"
         },
         {
@@ -103,37 +103,37 @@ export default {
         {
           proNo: 12,
           proTitle: "かさ歯製品群",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro13.jpg"
         },
         {
           proNo: 13,
           proTitle: "焼結ギア製品群",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro14.jpg"
         },
         {
           proNo: 14,
           proTitle: "樹脂材ギア製品群",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro15.jpg"
         },
         {
           proNo: 15,
           proTitle: "軸ギア",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro16.jpg"
         },
         {
           proNo: 16,
           proTitle: "ヘリカル歯シャフト",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro17.jpg"
         },
         {
           proNo: 17,
           proTitle: "2段ギア",
-          proDire:["モジュ-ル: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire:["モジュール: M0.2 ~ M1.5", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro18.jpg"
         },
         {

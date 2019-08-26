@@ -24,7 +24,7 @@ export default {
     return {
       deviceData: [
         {
-          devTitle: "北村 N C车床",
+          devTitle: "北村 NC 车床",
           devImg: "../../static/img/device/北村20G精密车床.jpg"
         },
         {

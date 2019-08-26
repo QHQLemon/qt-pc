@@ -57,19 +57,19 @@ export default {
         },
         { devTitle: "ローレット機", devImg: "../../static/img/device/滚丝机.jpg" },
         {
-          devTitle: "津上B0203パソコンの旋盤",
+          devTitle: "津上 B0203 CNC旋盤",
           devImg: "../../static/img/device/津上B0203电脑车床.jpg"
         },
         {
-          devTitle: "津上MO6J",
+          devTitle: "津上 MO6J CNC旋盤",
           devImg: "../../static/img/device/津上M06J.jpg"
         },
         {
-          devTitle: "津上MO6J旋盤",
+          devTitle: "津上 MO6J CNC旋盤",
           devImg: "../../static/img/device/津上MO6J车床.jpg"
         },
         {
-          devTitle: "津上MO6SD複合機",
+          devTitle: "津上 MO6SD CNC複合機",
           devImg: "../../static/img/device/津上MO6SD复合加工车床.jpg"
         },
         {
@@ -77,7 +77,7 @@ export default {
           devImg: "../../static/img/device/六轴中走丝线切割.jpg"
         },
         {
-          devTitle: "寧江YK3608ウォーム盤",
+          devTitle: "寧江 YK3608 HOB盤",
           devImg: "../../static/img/device/宁江YK3608滚齿机.jpg"
         },
         {
@@ -100,19 +100,19 @@ export default {
           devTitle: "シチズン　L20　CNC自動旋盘",
           devImg: "../../static/img/device/西铁城L20电脑车床.jpg"
         },
-        { devTitle: "ミツトョ　真円度測定機", devImg: "../../static/img/device/圆度仪.jpg" },
-        { devTitle: "2.5次元", devImg: "../../static/img/device/2.5次元.jpg" },
+        { devTitle: "ミツトヨ　真円度測定機", devImg: "../../static/img/device/圆度仪.jpg" },
+        { devTitle: "2.5次元 測定機", devImg: "../../static/img/device/2.5次元.jpg" },
         {
           devTitle: "大阪精密歯車試験機",
           devImg: "../../static/img/device/齿轮测试仪.jpg"
         },
         {
-          devTitle: "大阪精密歯車噛み合い機",
+          devTitle: "大阪精密歯車噛み合い試験機",
           devImg: "../../static/img/device/齿轮啮合仪.jpg"
         },
-        { devTitle: "ミツトョ　形状測定機", devImg: "../../static/img/device/轮廓仪.jpg" },
+        { devTitle: "ミツトヨ　形状測定機", devImg: "../../static/img/device/轮廓仪.jpg" },
         {
-          devTitle: "ミツトョ　三次元機",
+          devTitle: "ミツトヨ　三次元機",
           devImg: "../../static/img/device/三丰三次元.jpg"
         },
         {

@@ -74,7 +74,7 @@ export default {
         {
           proNo: 7,
           proTitle: "皮带轮系列",
-          proDire: ["齿形：MXL/XL/S2M/S3M/T2.5/2GT/HTD3M", "外径: Φ2.5mm ~ Φ130mm"],
+          proDire: ["齿形：MXL/XL/S2M/S3M/T2.5/2GT/HTD3M等以及其特征齿形", "外径: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro8.jpg"
         },
         {

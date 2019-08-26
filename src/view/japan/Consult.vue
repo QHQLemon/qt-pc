@@ -37,7 +37,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-3 col-sm-9">
-              <p><span class="glyphicon glyphicon-asterisk"></span>入力情报が正しいか确认の上、确认ボタンを押してください。お问い合わせの内容はメールや电话でお送りします
+              <p><span class="glyphicon glyphicon-asterisk"></span>以上の内容でよろしければ、確認ボタンを押してください。
               </p>
           </div>
         </div>

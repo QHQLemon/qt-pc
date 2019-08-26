@@ -37,7 +37,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-3 col-sm-9">
-              <p><span class="glyphicon glyphicon-asterisk"></span> 请确认填写信息无误后，按确认按钮，您咨询的内容将会以邮件或电话的方式发送给您
+              <p><span class="glyphicon glyphicon-asterisk"></span>请确认填写信息无误后，按确认按钮。
               </p>
           </div>
         </div>

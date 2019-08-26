@@ -37,7 +37,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-3 col-sm-9">
-              <p><span class="glyphicon glyphicon-asterisk"></span> Please confirm that the information is correct, press the "confirm" button, and your inquiry will be sent to you by email or telephone
+              <p><span class="glyphicon glyphicon-asterisk"></span>Press the if it is good with the aforementioned contents confirmation button.
               </p>
           </div>
         </div>

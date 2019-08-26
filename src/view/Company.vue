@@ -55,30 +55,6 @@
         </p>
       </div>
     </div>
-
-    <!-- <div class="talk-wrapper">
-      <ol>
-        <li class="talk-dot active"></li>
-        <li class="talk-dot"></li>
-        <li class="talk-dot"></li>
-      </ol>
-      <ul class="talk-content has-shadow">
-        <li class="talk-item talk-active">
-          <h3>我们的信条</h3>
-          <p>"我们从事于制造行业，为了给社会做贡献，也为了生活。制造业最重要的是遵守并履行规定。"</p>
-          <p>"只有遵守并履行规定才能不失信于和顾客在品质，交期及价格上达成的共识。"</p>
-          <p>"贯彻探求工作的合理化到底，致力钻研于技术水平的提高，在这竞争激烈的新时代生存下去。"</p>
-        </li>
-        <li class="talk-item">
-          <h3>经营的理念</h3>
-          <p>"提供超出顾客期望的割品是我公司发展的基本理念、相信公司的发能给社会做出贡献,丰富每个员工的生活”。</p>
-        </li>
-        <li class="talk-item">
-          <h3>环境方针</h3>
-          <p>"保护环境是我们共同的责任遵守环保法规,提升环境意识;规范作业流程,科技控制污染:创新节能降耗,落实环境指标;全员参与控制,持续改进提高。"</p>
-        </li>
-      </ul>
-    </div>-->
   </div>
 </template>
 
@@ -99,7 +75,7 @@ export default {
         { title: "TEL", content: "86-769-85235261/262" },
         { title: "FAX", content: "86-769-85235270" },
         { title: "Email", content: " sales@kiyotadg.com " },
-        { title: "网址", content: " www.kiyotadg.com" },
+        { title: "网址", content: " https://www.kiyotadg.com" },
         { title: "邮编", content: "523922" },
         { title: "工作人员", content: "80人" }
       ],
@@ -116,7 +92,7 @@ export default {
         { time: "2018年03月", content: "认证EN ISO 13485:2016。" },
         { time: "2017年12月", content: "换证ISO 14001:2015。" },
         { time: "2017年12月", content: "换证ISO 9001:2015。" },
-        { time: "2016年09月", content: "认证ISO/TS 16949:2009" },
+        { time: "2016年09月", content: "认证ISO/TS 16949:2009。" },
 
         {
           time: "2016年07月",
@@ -136,18 +112,18 @@ export default {
           content:
             "“大田精工株式会社”投资5000万及获股份转让经营权，总资本金为25000万日元。"
         },
-        { time: "2012年02月", content: "认证ISO9001:2008" },
+        { time: "2012年02月", content: "认证ISO 9001:2008。" },
         { time: "2011年04月", content: "董事会成员变更。" },
         {
           time: "2010年01月",
           content: "追加资本金4000万日元，总资本金为20000万日元。"
         },
-        { time: "2009年11月", content: "认证ISO14001:2004。" },
+        { time: "2009年11月", content: "认证ISO 14001:2004。" },
         {
           time: "2007年05月 ",
           content: "追加资本金8000万日元，总资本金为16000万日元。"
         },
-        { time: "2005年10月", content: "法定代表人变更为“木下昭男。“" },
+        { time: "2005年10月", content: "法定代表人变更为“木下昭男”。" },
         {
           time: "2004年10月",
           content: "成立于虎门镇赤岗外经工业区，资本金8000万日元。"

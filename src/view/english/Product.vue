@@ -6,15 +6,15 @@
     <div class="intro-show container">
       <div class="intro-show-left col-lg-4">
         <div class="total clearfix">
-            <span>Product Catalog</span>
-            <ul class="product-wrapper">
-              <li
-                class="product-item"
-                v-for="item in productData"
-                :class="item.proNo == index ? 'active' : ''"
-                @click="changeIndex(item)"
-              >{{item.proTitle}}</li>
-            </ul>
+          <span>Product Introduction</span>
+          <ul class="product-wrapper">
+            <li
+              class="product-item"
+              v-for="item in productData"
+              :class="item.proNo == index ? 'active' : ''"
+              @click="changeIndex(item)"
+            >{{item.proTitle}}</li>
+          </ul>
         </div>
       </div>
       <div class="intro-show-right col-lg-8">
@@ -36,7 +36,7 @@ export default {
       productData: [
         {
           proNo: 1,
-          proTitle: "Combination gear",
+          proTitle: "Combination gears",
           proDire: ["", ""],
           proImg: "/static/img/pro1.jpg"
         },
@@ -48,33 +48,34 @@ export default {
         },
         {
           proNo: 3,
-          proTitle: "Spur series",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proTitle: "Spur gear",
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro3.jpg"
         },
         {
           proNo: 4,
           proTitle: "Helical gear",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro4.jpg"
         },
         {
           proNo: 5,
           proTitle: "Worm wheel",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro5.jpg"
         },
         {
           proNo: 6,
           proTitle: "Worm gear",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro6.jpg"
         },
         {
           proNo: 7,
-          proTitle: "Pulley series",
-          proDire: ["Tooth profile：MXL/XL/S2M/S3M/T2.5/2GT/HTD3M", "Outer diameter: Φ2.5mm ~ Φ130mm"],
-          proImg: "/static/img/pro8.jpg"
+          proTitle: "Pulley products",
+          "tooth form":
+            "MXL/XL/S2M/S3M/T2.5/2GT/HTD3M etc.and special of the tooth form",
+          "outer dimension": "Φ2.5mm ~ Φ130mm"
         },
         {
           proNo: 8,
@@ -90,7 +91,7 @@ export default {
         },
         {
           proNo: 10,
-          proTitle: "Precision shaft ",
+          proTitle: "Precision shafts ",
           proDire: ["", ""],
           proImg: "/static/img/pro11.jpg"
         },
@@ -103,42 +104,42 @@ export default {
         {
           proNo: 12,
           proTitle: "Bevel gear",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro13.jpg"
         },
         {
           proNo: 13,
           proTitle: "Sinter gear products",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro14.jpg"
         },
         {
           proNo: 14,
           proTitle: "Plastic material gear products",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro15.jpg"
         },
         {
           proNo: 15,
           proTitle: "Spur gear shaft",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro16.jpg"
         },
         {
           proNo: 16,
           proTitle: "Helical gear shaft",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro17.jpg"
         },
         {
           proNo: 17,
           proTitle: "Double reduction gear ",
-          proDire: ["Modulus: M0.2 ~ M1.5", "Outer diameter: Φ2.5mm ~ Φ130mm"],
+          proDire: ["Module: M0.2 ~ M1.5", "Outer dimension: Φ2.5mm ~ Φ130mm"],
           proImg: "/static/img/pro18.jpg"
         },
         {
           proNo: 18,
-          proTitle: "rack products",
+          proTitle: "Rack products",
           proDire: ["", ""],
           proImg: "/static/img/pro19.jpg"
         },
@@ -147,7 +148,7 @@ export default {
           proTitle: "Assembly products",
           proDire: ["", ""],
           proImg: "/static/img/pro20.jpg"
-        },
+        }
       ],
       nowPro: ""
     };
@@ -159,7 +160,7 @@ export default {
       this.nowPro = data;
     }
   },
-  mounted(){
+  mounted() {
     this.nowPro = this.productData[0];
     this.index = this.productData[0].proNo;
   }
@@ -170,17 +171,17 @@ export default {
 .intro-show {
   margin-top: 50px;
 }
-.total  {
+.total {
   padding: 15px 10px;
   margin-left: 10px;
   background: rbg(248, 250, 250);
   color: #000;
   font-weight: 550;
   margin-bottom: 30px;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
-.total span{
+.total span {
   font-size: 18px;
   font-weight: 800;
 }
