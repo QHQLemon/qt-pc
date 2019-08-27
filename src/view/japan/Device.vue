@@ -130,7 +130,6 @@ export default {
   margin: 0 auto;
   width: 970px;
   font-size: 16px;
-  font-style: italic;
   line-height: 40px;
   margin-bottom: 50px;
   text-align: center;
