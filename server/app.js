@@ -34,7 +34,7 @@ app.post('/subMsg', function(request, response){
   var mailOptions = {
     from: '328858582@qq.com',
     // to: 'kerry_huang@kiyotadg.com',
-    to: "18277751842@163.com",
+    to: "sales@kiyotadg.com",
     subject: '咨询信息',
     // text: str,
     html: `<h2>网站咨询信息如下：</h2>
