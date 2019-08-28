@@ -9,7 +9,7 @@
             齿轮自古以来在我们的日常生活中得到了广泛的推广和使用，是人类智慧的结晶。如今，齿轮成为工业的象征，成为广泛支撑马达、减速机等产业机械、汽车医疗产品等驱动部分的重要机械要素.我公司多年来在中国通过精密齿轮加工，不仅对日本，也为世界马达产业的发展做出了贡献。
         </p>
         <p>
-          <router-link tag="span" to="/Japanese/company" class="btn btn-lg my-btn btn-default">了解更多</router-link>
+          <router-link tag="span" to="/company" class="btn btn-lg my-btn btn-default">了解更多</router-link>
         </p>
       </div>
       <div class="col-lg-8">

@@ -8,7 +8,7 @@
         </p>
         <p>Gears have been long and widely spread and used in our daily lives, which can be seen wisdom of human beings. Nowadays they came to symbolize the industry,  with these mechanical elements supporting broad range of drive parts of motors and transmissions for industrial machineries, vehicles and medical equipment. DKP's precison gear cutting technology has played an important role of the development in motor industories both Japan and abroad. </p>
         <p>
-          <router-link tag="span" to="/company" class="btn btn-lg my-btn btn-default">For more in details, click here.</router-link>
+          <router-link tag="span" to="/English/company" class="btn btn-lg my-btn btn-default">For more in details, click here.</router-link>
         </p>
       </div>
       <div class="col-lg-8">
