@@ -12,6 +12,9 @@ import 'bootstrap/dist/js/bootstrap'
 
 import './assets/css/main.css'
 
+
+// import swiper from './assets/js/swiper'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -4,8 +4,21 @@
       <p class="main-title">Product Introduction</p>
     </div>
     <div class="intro-show container">
-      <div class="intro-show-left col-lg-4">
-        <div class="total clearfix">
+      <div class="intro-show-left col-sm-4">
+        <div class="total clearfix" v-show="showFlag">
+          <span>Product Introduction</span>
+          <div class="scroll-wrap" id="wrap">
+            <ul class="product-wrapper">
+              <li
+                class="product-item"
+                v-for="item in productData"
+                :class="item.proNo == index ? 'active' : ''"
+                @click="changeIndex(item)"
+              >{{item.proTitle}}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="total clearfix" v-show="!showFlag">
           <span>Product Introduction</span>
           <ul class="product-wrapper">
             <li
@@ -17,7 +30,7 @@
           </ul>
         </div>
       </div>
-      <div class="intro-show-right col-lg-8">
+      <div class="intro-show-right col-sm-8">
         <pro-item :proData="nowPro"></pro-item>
       </div>
     </div>
@@ -26,6 +39,7 @@
 
 <script>
 import ProItem from "@/components/product/proItem";
+import swiper from "../../assets/js/swiper";
 export default {
   components: {
     ProItem
@@ -33,6 +47,7 @@ export default {
   data() {
     return {
       index: 1,
+      showFlag: false,
       productData: [
         {
           proNo: 1,
@@ -73,9 +88,11 @@ export default {
         {
           proNo: 7,
           proTitle: "Pulley products",
-          "tooth form":
-            "MXL/XL/S2M/S3M/T2.5/2GT/HTD3M etc.and special of the tooth form",
-          "outer dimension": "Φ2.5mm ~ Φ130mm"
+          proDire: [
+            "tooth form:MXL/XL/S2M/S3M/T2.5/2GT/HTD3M etc.and special of the tooth form",
+            "outer dimension: Φ2.5mm ~ Φ130mm"
+          ],
+          proImg: "/static/img/pro8.jpg"
         },
         {
           proNo: 8,
@@ -163,17 +180,43 @@ export default {
   mounted() {
     this.nowPro = this.productData[0];
     this.index = this.productData[0].proNo;
+    let a = document.body.clientWidth;
+    if (a > 768) {
+      this.showFlag = false;
+    } else {
+      this.showFlag = true;
+    }
+
+    const wrap = document.getElementById("wrap");
+    console.log(wrap);
+    swiper({
+      wrap,
+      dir: "x",
+      backOut: "none",
+      scrollBar: false
+    });
+
+    var $this = this;
+    window.onresize = function() {
+      let clientWidth = document.body.clientWidth;
+      if (clientWidth < 768) {
+        $this.showFlag = true;
+      } else {
+        $this.showFlag = false;
+      }
+      console.log($this.showFlag);
+    };
   }
 };
 </script >
-
 <style scoped>
 .intro-show {
   margin-top: 50px;
 }
+
 .total {
-  padding: 15px 10px;
-  margin-left: 10px;
+  padding: 10px 0px;
+  width: 300px;
   background: rbg(248, 250, 250);
   color: #000;
   font-weight: 550;
@@ -182,8 +225,7 @@ export default {
 }
 
 .total span {
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 16px;
 }
 
 .product-item {
@@ -200,7 +242,46 @@ export default {
 .product-item:hover {
   background: #ddd;
 }
-.intro-show-right {
-  padding-left: 30px;
+
+ul.product-wrapper {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .total {
+    margin: 0;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .product-item:hover {
+    background: #0059a0;
+    color: #fff;
+  }
+  .product-item {
+    margin-top: 5px;
+  }
+  ul.product-wrapper {
+    padding-left: 10px;
+  }
+  .intro-show-right {
+    padding: 0 15px;
+  }
+  .intro-show {
+    margin-top: 30px;
+  }
+
+  ul.product-wrapper {
+    display: flex;
+    width: 2400px;
+  }
+  .scroll-wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+  .intro-show-right {
+    margin-top: 30px;
+  }
+
 }
 </style>

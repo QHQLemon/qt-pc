@@ -16,5 +16,11 @@ img{
   width: 90%;
   margin-left: 50px;
 }
+@media (max-width: 768px) {
+  img{
+    margin: 0;
+    transform: translateX(5%);
+  }
+}
 
 </style>

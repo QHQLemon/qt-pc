@@ -43,5 +43,10 @@ export default{
   padding-right: 0;
   padding-left: 0;
 }
+@media (max-width: 768px) {
+  .m-page-main{
+    margin-top: 20px;
+  }
+}
 
 </style>

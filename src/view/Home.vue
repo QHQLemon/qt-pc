@@ -1,18 +1,14 @@
 <template>
   <div class="home-wrapper">
     <div class="home-intro-top container">
-      <div class="col-lg-4 intro-left">
-        <p class="intro-title">
-          东莞清田精密齿轮有限公司是一家以精密齿轮加工技术向世界挑战的全球日资企业。
-        </p>
-        <p>
-            齿轮自古以来在我们的日常生活中得到了广泛的推广和使用，是人类智慧的结晶。如今，齿轮成为工业的象征，成为广泛支撑马达、减速机等产业机械、汽车医疗产品等驱动部分的重要机械要素.我公司多年来在中国通过精密齿轮加工，不仅对日本，也为世界马达产业的发展做出了贡献。
-        </p>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <p class="intro-title">东莞清田精密齿轮有限公司是一家以精密齿轮加工技术向世界挑战的全球日资企业。</p>
+        <p>齿轮自古以来在我们的日常生活中得到了广泛的推广和使用，是人类智慧的结晶。如今，齿轮成为工业的象征，成为广泛支撑马达、减速机等产业机械、汽车医疗产品等驱动部分的重要机械要素.我公司多年来在中国通过精密齿轮加工，不仅对日本，也为世界马达产业的发展做出了贡献。</p>
         <p>
           <router-link tag="span" to="/company" class="btn btn-lg my-btn btn-default">了解更多</router-link>
         </p>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-8 col-md-8 col-sm-12">
         <my-swiper></my-swiper>
       </div>
     </div>
@@ -20,19 +16,38 @@
     <div class="info-wrapper container">
       <h3>清田公告栏</h3>
       <dl class="topic clearfix">
-        <dt>2019年07月5日</dt>
-        <dd>
+        <dt class="">2019年07月05日</dt>
+        <dd class="">
           <strong>股权转让</strong>
-          <br>“浦和冶金工业株式会社”将股权500万日元全部转让给“清田株式会社”，
+          <br />“浦和冶金工业株式会社”将股权500万日元全部转让给“清田株式会社”，
           “株式会社MMI”将股权2500万日元全部转让给“大田精工株式会社”。股权
           变更后，“清田株式会社”出资额10000万日元，占注册资本36.36%；“大田
           精工株式会社“出资额17500万日元，占注册资本63.64%。
           同时进行董事会成员变更。
-          <br>
+          <br />
         </dd>
+        <!-- <dt class="">2019年07月5日</dt>
+        <dd class="">
+          <strong>股权转让</strong>
+          <br />“浦和冶金工业株式会社”将股权500万日元全部转让给“清田株式会社”，
+          “株式会社MMI”将股权2500万日元全部转让给“大田精工株式会社”。股权
+          变更后，“清田株式会社”出资额10000万日元，占注册资本36.36%；“大田
+          精工株式会社“出资额17500万日元，占注册资本63.64%。
+          同时进行董事会成员变更。
+          <br />
+        </dd>
+        <dt class="">2019年07月5日</dt>
+        <dd class="">
+          <strong>股权转让</strong>
+          <br />“浦和冶金工业株式会社”将股权500万日元全部转让给“清田株式会社”，
+          “株式会社MMI”将股权2500万日元全部转让给“大田精工株式会社”。股权
+          变更后，“清田株式会社”出资额10000万日元，占注册资本36.36%；“大田
+          精工株式会社“出资额17500万日元，占注册资本63.64%。
+          同时进行董事会成员变更。
+          <br />
+        </dd> -->
       </dl>
     </div>
-
   </div>
 </template>
 
@@ -65,7 +80,7 @@ export default {
 }
 .info-wrapper {
   margin-top: 100px;
-  width: 900px;
+  max-width: 900px;
   border: 2px solid #ccc;
 }
 .info-wrapper h3 {
@@ -80,33 +95,26 @@ export default {
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
-  height: 320px;
+  height: 260px;
   margin: 0 0 0 0;
   font-size: 14px;
   line-height: 2;
-  padding-bottom: 50px;
 }
 .topic dt {
-  width: 200px;
   margin: 10px 0 0 0;
-  padding: 10px 0 0 40px;
+  text-align: center;
   font-weight: bold;
   color: #005ba9;
+  width: 20%;
 }
 .topic dd em {
   font-weight: 550;
 }
 .topic dd {
-  width: 600px;
-  padding: 20px 80px 0 0;
+  width: 80%;
+  padding: 10px;
 }
 
-.content-wrapper {
-  display: flex;
-  justify-content: space-around;
-  margin: 100px 0;
-  padding: 0 40px;
-}
 .intro-title {
   color: #005ba9;
   font-size: 24px;
@@ -268,5 +276,38 @@ export default {
 }
 .bk {
   position: absolute;
+}
+
+@media (max-width: 768px) {
+  .home-wrapper{
+    margin-top: 10px;
+  }
+  .col-md-4.col-sm-12{
+    background: rgb(251, 251, 251);
+    padding: 20px 15px;
+    border-radius: 6px;
+    margin: 10px;
+  }
+  .intro-title {
+    font-size: 20px;
+  }
+  .my-btn.btn-lg{
+    font-size: 16px;
+  }
+  .col-md-8.col-sm-12{
+    display: none;
+  }
+  .info-wrapper{
+    margin-top: 10px;
+    width: 90%;
+  }
+  .topic{
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 568px){
+  .col-md-8.col-sm-12{
+    display: none;
+  }
 }
 </style>

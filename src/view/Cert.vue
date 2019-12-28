@@ -2,12 +2,12 @@
   <div class="cert-wrapper container">
     <p class="main-title">资质证书</p>
     <div class="cert-content">
-      <div class="col-lg-4">
+      <div class="col-sm-4">
         <ul class="item-box">
           <li @click="changeCert(item)" v-for="item in certData" :class="index == item.certNo ? 'active' : ''"> {{item.certTitle}}</li>
         </ul>
       </div>
-      <div class="col-lg-8">
+      <div class="col-sm-8">
         <cert-item :certData="certItem"></cert-item>
       </div>
     </div>
@@ -87,5 +87,29 @@ export default{
   background: rgb(248, 250, 250);
   color: #0059a0;
   font-weight: 550;
+}
+
+@media (max-width: 768px){
+  .cert-wrapper{
+  padding: 0 15px;
+}
+  .item-box{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.item-box li{
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  width: 48%;
+  margin-top: 12px;
+}
+.main-title{
+  font-size: 24px;
+  width: 130px;
+}
+
 }
 </style>

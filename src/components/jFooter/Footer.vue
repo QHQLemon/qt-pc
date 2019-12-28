@@ -8,7 +8,7 @@
     </div>
     <div class="m-footer-wrapper">
       <div class="footer-company container">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <!-- <p class="company-name">东莞清田精密齿轮有限公司</p> -->
           <p class="company-name">東莞清田精密歯車有限公司</p>
           <p>住所:広东省东莞市虎门镇陈村社区厚虎路22号</p>
@@ -16,7 +16,7 @@
           <p>FAX : + 86- 7639 -85235270</p>
           <p>E-mail：sales@kiyotadg.com</p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">＜本社＞</p>
           <p>〒143-0027　東京都大田区中馬込3-24-6</p>
           <p>TEL : 03-3776-1020 &nbsp;&nbsp;　　FAX : 03-3776-1023</p>
@@ -70,13 +70,14 @@ export default {};
 }
 .footer-company {
   padding-top: 30px;
-  margin-left: 200px;
 }
 .footer-right {
-  height: 60px;
   text-align: center;
-  line-height: 60px;
+  line-height: 30px;
   font-size: 12px;
+}
+.col-12{
+  text-align: center;
 }
 </style>
 

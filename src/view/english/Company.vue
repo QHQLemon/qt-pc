@@ -52,7 +52,7 @@
       <p class="company-title">Company History</p>
       <div class="history-item" v-for="item in companyHistory">
         <span class="glyphicon glyphicon-record"></span>
-        <p>
+        <p class="item-content">
           <strong>{{item.time}}</strong>
           <span class="content-item">{{item.content}}</span>
         </p>
@@ -180,7 +180,7 @@ $(function() {});
 }
 .company-intro-item {
   font-size: 16px;
-  width: 800px;
+  max-width: 800px;
   margin: 20px auto;
   text-indent: 2em;
 }
@@ -190,7 +190,6 @@ $(function() {});
 
 .company-intro-bottom-right img {
   height: 400px;
-  margin-top: 30px;
 }
 .company-intro-bottom-left {
   padding: 20px 100px;
@@ -218,15 +217,13 @@ $(function() {});
   margin-bottom: 20px;
 }
 .company-simple-item {
-  height: 40px;
-  line-height: 40px;
+  display: flex;
   font-size: 14px;
   padding-left: 100px;
   border-bottom: 1px solid #ccc;
 }
 .company-simple-item strong {
-  display: inline-block;
-  width: 200px;
+  flex: 0 0 40%;
 }
 .company-history {
   padding: 50px 100px;
@@ -236,6 +233,7 @@ $(function() {});
 }
 .history-item {
   padding: 10px 100px;
+  display: flex;
 }
 .history-item .glyphicon-record {
   font-size: 16px;
@@ -245,15 +243,14 @@ $(function() {});
   display: inline-block;
 }
 .history-item p strong {
-  display: inline-block;
-  width: 100px;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .content-item {
   display: inline-block;
-  width: 600px;
+  max-width: 600px;
   vertical-align: top;
 }
+
 .talk-wrapper {
   min-height: 300px;
   position: relative;
@@ -297,4 +294,50 @@ $(function() {});
 .talk-wrapper .talk-dot.active {
   border: 2px solid #0059a0;
 }
+
+@media (max-width: 768px) {
+  .company-intro-title {
+    font-size: 24px;
+  }
+  .container {
+    margin: 0 15px;
+  }
+  .company-intro-bottom,
+  .company-simple {
+    margin-top: 20px;
+  }
+  .company-intro-bottom-left {
+    padding: 10px;
+  }
+  .company-title {
+    font-size: 20px;
+  }
+  .company-intro-bottom-right img {
+    display: none;
+  }
+  .company-simple .container,
+  .company-history {
+    padding: 10px;
+  }
+  .company-simple-item {
+    padding-left: 0;
+  }
+  .history-item{
+    padding: 0;
+  }
+  .history-item .item-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-item{
+    padding-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .company-simple-item {
+    line-height: 40px;
+  }
+}
 </style>
+
+

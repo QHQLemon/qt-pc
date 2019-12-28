@@ -128,7 +128,7 @@ export default {
 <style scoped>
 .device-dire {
   margin: 0 auto;
-  width: 970px;
+  max-width: 970px;
   font-size: 16px;
   line-height: 40px;
   margin-bottom: 50px;
@@ -168,4 +168,28 @@ export default {
 .divice-item:hover{
   transform:  scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  .main-title {
+    font-size: 24px;
+  }
+  .divice-item:hover {
+    transform: scale(1);
+  }
+  .divice-item {
+    margin-top: 20px;
+  }
+  .device-img-box {
+    justify-content: space-around;
+  }
+  .divice-item p {
+    height: 30px;
+    line-height: 16px;
+    font-size: 16px;
+  }
+}
+
 </style>

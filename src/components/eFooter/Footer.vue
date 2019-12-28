@@ -8,7 +8,7 @@
     </div>
     <div class="m-footer-wrapper">
       <div class="footer-company container">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <!-- <p class="company-name">东莞清田精密齿轮有限公司</p> -->
           <p class="company-name">DONGGUAN KIYOTA PRECISION CO., LTD</p>
           <p>Address: no.22, houhu road, chencun community, humen town, dongguan city,</br> guangdong province</p>
@@ -16,7 +16,7 @@
           <p>Fax: + 86-769-85235270</p>
           <p>E-mail：sales@kiyotadg.com</p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">Head Office</p>
           <p>3-24-6 Naka-magome,Ohta-ku,Tokyo 143 ,Japan &nbsp;&nbsp; Zip 143-0027</p>
           <p>TEL : 03-3776-1020 &nbsp;&nbsp; FAX : 03-3776-1023</p>
@@ -70,13 +70,14 @@ export default {};
 }
 .footer-company {
   padding-top: 30px;
-  margin-left: 200px;
 }
 .footer-right {
-  height: 60px;
   text-align: center;
-  line-height: 60px;
+  line-height: 30px;
   font-size: 12px;
+}
+.col-12{
+  text-align: center;
 }
 </style>
 

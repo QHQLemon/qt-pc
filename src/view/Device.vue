@@ -11,7 +11,7 @@
       <div class="device-img-box">
         <div class="divice-item has-shadow" v-for="item in deviceData">
           <p class="divice-name">{{item.devTitle}}</p>
-          <img :src="item.devImg" alt>
+          <img :src="item.devImg" alt />
         </div>
       </div>
     </div>
@@ -101,8 +101,14 @@ export default {
           devImg: "../../static/img/device/西铁城L20电脑车床.jpg"
         },
 
-        { devTitle: "三丰圆度仪", devImg: "../../static/img/device/圆度仪.jpg" },
-        { devTitle: "2.5次元 測定機", devImg: "../../static/img/device/2.5次元.jpg" },
+        {
+          devTitle: "三丰圆度仪",
+          devImg: "../../static/img/device/圆度仪.jpg"
+        },
+        {
+          devTitle: "2.5次元 測定機",
+          devImg: "../../static/img/device/2.5次元.jpg"
+        },
         {
           devTitle: "大阪精密齿轮测试仪",
           devImg: "../../static/img/device/齿轮测试仪.jpg"
@@ -111,7 +117,10 @@ export default {
           devTitle: "大阪精密齿轮啮合仪",
           devImg: "../../static/img/device/齿轮啮合仪.jpg"
         },
-        { devTitle: "三丰轮廓仪", devImg: "../../static/img/device/轮廓仪.jpg" },
+        {
+          devTitle: "三丰轮廓仪",
+          devImg: "../../static/img/device/轮廓仪.jpg"
+        },
         {
           devTitle: "三丰三次元",
           devImg: "../../static/img/device/三丰三次元.jpg"
@@ -119,7 +128,7 @@ export default {
         {
           devTitle: "超声波自动清洗机",
           devImg: "../../static/img/device/wash.jpg"
-        },
+        }
       ]
     };
   }
@@ -129,7 +138,7 @@ export default {
 <style scoped>
 .device-dire {
   margin: 0 auto;
-  width: 970px;
+  max-width: 970px;
   font-size: 16px;
   line-height: 40px;
   margin-bottom: 50px;
@@ -166,7 +175,30 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.divice-item:hover{
-  transform:  scale(1.05);
+.divice-item:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  .main-title {
+    font-size: 24px;
+  }
+  .divice-item:hover {
+    transform: scale(1);
+  }
+  .divice-item {
+    margin-top: 20px;
+  }
+  .device-img-box {
+    justify-content: space-around;
+  }
+  .divice-item p {
+    height: 30px;
+    line-height: 16px;
+    font-size: 16px;
+  }
 }
 </style>

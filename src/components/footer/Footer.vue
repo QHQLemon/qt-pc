@@ -10,7 +10,7 @@
     </div>
     <div class="m-footer-wrapper">
       <div class="footer-company container">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">东莞清田精密齿轮有限公司</p>
           <p class="company-name">DONGGUAN KIYOTA PRECISION CO., LTD</p>
           <p>地址：广东省东莞市虎门镇陈村社区厚虎路22号</p>
@@ -18,7 +18,7 @@
           <p>传真：+86-769-85235270</p>
           <p>E-mail：sales@kiyotadg.com</p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">总公司</p>
           <p>地址：日本国东京都大田区中馬込3-24-6 邮编143-0027</p>
           <p>电话：+81-3-3776-1020 传真：+81-3-3776-1023</p>
@@ -72,12 +72,15 @@ export default {};
 }
 .footer-company {
   padding-top: 30px;
-  margin-left: 200px;
 }
 .footer-right {
-  height: 60px;
   text-align: center;
-  line-height: 60px;
+  line-height: 30px;
   font-size: 12px;
 }
+.col-12{
+  text-align: center;
+}
+
+
 </style>

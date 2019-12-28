@@ -7,22 +7,22 @@
           <span class="glyphicon glyphicon-bell"></span>チームワーク
         </p>
         <div class="img-wrapper clearfix">
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/tj3.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/tj4.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/tj1.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/tj2.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/tj5.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/tj6.jpg" alt>
           </div>
         </div>
@@ -33,13 +33,13 @@
           <span class="glyphicon glyphicon-bell"></span>忘年会
         </p>
         <div class="img-wrapper clearfix">
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/nh1.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/nh3.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/nh2.jpg" alt>
           </div>
         </div>
@@ -50,13 +50,13 @@
           <span class="glyphicon glyphicon-bell"></span>消防演習
         </p>
         <div class="img-wrapper clearfix">
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/xf2.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/xf1.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../../assets/img/life/xf3.jpg" alt>
           </div>
         </div>
@@ -67,40 +67,40 @@
       <!-- <p class="life-img-title">清田的福利</p>
       <hr>-->
       <div class="profit-wrapper">
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-yen"></span>
           </p>
           <p class="profit-title">給料</p>
           <p class="profit-dir">魅力的な給与</p>
         </div>
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-gift"></span>
           </p>
           <p class="profit-title">ボーナス</p>
           <p class="profit-dir">年末支給</p>
         </div>
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-time"></span>
           </p>
           <p class="profit-title">出勤</p>
           <p class="profit-dir">平日８時間５日制、それ以外は残業扱い</p>
         </div>
-        <div class="profit-item">
-          <p class="icon-wrapper">
-            <span class="glyphicon glyphicon-bed"></span>
-          </p>
-          <p class="profit-title">休日</p>
-          <p class="profit-dir">国家法定休暇制度を実施、1年勤務後に7日の有給休暇を、3 ~ 5年勤務には10日の有給休暇が、6年以上では14日の有給休暇取得</p>
-        </div>
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-pushpin"></span>
           </p>
           <p class="profit-title">保険</p>
           <p class="profit-dir">法定社会保険以外、別途追加の保険に加入</p>
+        </div>
+        <div class="profit-item col-md-2">
+          <p class="icon-wrapper">
+            <span class="glyphicon glyphicon-bed"></span>
+          </p>
+          <p class="profit-title">休日</p>
+          <p class="profit-dir">国家法定休暇制度を実施、1年勤務後に7日の有給休暇を、3 ~ 5年勤務には10日の有給休暇が、6年以上では14日の有給休暇取得</p>
         </div>
       </div>
     </div>
@@ -112,8 +112,6 @@ export default {};
 </script >
 
 <style scoped>
-.life-wrapper {
-}
 .life-top {
   padding-top: 50px;
   text-align: center;
@@ -135,8 +133,6 @@ export default {};
   justify-content: space-around;
 }
 .profit-wrapper .profit-item {
-  width: 220px;
-  min-height: 250px;
   padding: 20px 30px;
   text-align: center;
 }
@@ -192,12 +188,48 @@ export default {};
   margin-top: 20px;
 }
 .img-item img {
-  width: 90%;
+  width: 95%;
 }
 .img-item img:hover {
   transform: scale(1.05);
 }
 .profit-box {
   margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 15px;
+  }
+  .life-item {
+    margin-top: 10px;
+  }
+  .img-item {
+    margin-top: 12px;
+  }
+  .img-item img:hover {
+    transform: scale(1);
+  }
+  .profit-wrapper {
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .profit-wrapper .profit-item {
+    width: 50%;
+  }
+  .profit-wrapper .profit-item:last-child{
+    width: 80%;
+  }
+  .profit-item:hover {
+  transform: scale(1);
+}
+.icon-wrapper{
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+}
+.icon-wrapper span{
+  font-size: 20px;
+}
 }
 </style>

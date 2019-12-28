@@ -1,7 +1,7 @@
 <template>
   <div class="home-wrapper">
     <div class="home-intro-top container">
-      <div class="col-lg-4 intro-left">
+      <div class="col-lg-4 col-md-4 col-sm-12 intro-left">
         <p class="intro-title">
           Dongguan Kiyota Precision Co.,Ltd (DKP),
           Japanese gear maker, globally challenging in the market around the world.
@@ -11,7 +11,7 @@
           <router-link tag="span" to="/English/company" class="btn btn-lg my-btn btn-default">For more in details, click here.</router-link>
         </p>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-8 col-md-8 col-sm-12">
         <my-swiper></my-swiper>
       </div>
     </div>
@@ -46,10 +46,11 @@ export default {
 .home-wrapper {
   margin-top: 20px;
 }
-
+.home-intro-top {
+}
 .info-wrapper {
   margin-top: 100px;
-  width: 900px;
+  max-width: 900px;
   border: 2px solid #ccc;
 }
 .info-wrapper h3 {
@@ -64,35 +65,54 @@ export default {
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
-  height: 320px;
+  height: 260px;
   margin: 0 0 0 0;
   font-size: 14px;
   line-height: 2;
-  padding-bottom: 50px;
 }
 .topic dt {
-  width: 200px;
   margin: 10px 0 0 0;
-  padding: 10px 0 0 40px;
+  text-align: center;
   font-weight: bold;
   color: #005ba9;
+  width: 20%;
 }
 .topic dd em {
   font-weight: 550;
 }
 .topic dd {
-  width: 600px;
-  padding: 20px 80px 0 0;
+  width: 80%;
+  padding: 10px;
 }
 
 .intro-title {
   color: #005ba9;
   font-size: 24px;
-  font-weight: 550;
+  font-weight: 900;
 }
 .intro-left {
-  margin: 50px auto;
+  margin: 100px auto;
 }
+.content-item {
+  width: 346px;
+  padding: 22px;
+}
+.content-item img {
+  width: 60px;
+  height: 60px;
+}
+.content-item .item-title {
+  color: #0d47a1;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 40px;
+  height: 40px;
+  margin-bottom: 0;
+}
+.content-item p {
+  font-size: 16px;
+}
+
 .intro-talk {
   background: rgb(248, 250, 250);
   min-height: 500px;
@@ -146,6 +166,7 @@ export default {
 .intro-device {
   min-height: 300px;
   margin-top: 150px;
+  padding: 20px 0;
   text-align: center;
 }
 .device-dire {
@@ -162,5 +183,101 @@ export default {
   font-weight: 550;
   color: #0059a0;
   cursor: pointer;
+}
+.gif-wrapper {
+}
+.gif-wrapper img {
+  height: 420px;
+}
+
+.talk-wrapper {
+  min-height: 300px;
+  position: relative;
+  background: rgb(248, 250, 250);
+  margin: 100px 0;
+}
+.talk-wrapper .talk-content {
+  margin: 0 auto;
+  width: 1100px;
+  height: 400px;
+  padding: 50px 0;
+  line-height: 2.5em;
+}
+.talk-wrapper ul li {
+  display: none;
+}
+.talk-wrapper ul li h3 {
+  text-align: center;
+  font-weight: 550;
+  font-weight: 990;
+  font-size: 34px;
+}
+.talk-wrapper ul li p {
+  font-style: italic;
+  position: relative;
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.talk-wrapper ul li.talk-active {
+  display: inline-block;
+}
+.talk-wrapper ol {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.talk-wrapper .talk-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+.talk-wrapper .talk-dot.active {
+  border: 2px solid #0059a0;
+}
+.hp {
+  width: 40px;
+}
+.hn {
+  height: 40px;
+}
+.bk {
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .home-wrapper{
+    margin-top: 10px;
+  }
+  .col-md-4.col-sm-12{
+    background: rgb(251, 251, 251);
+    padding: 20px 15px;
+    border-radius: 6px;
+    margin: 10px;
+  }
+  .intro-title {
+    font-size: 20px;
+  }
+  .my-btn.btn-lg{
+    font-size: 16px;
+  }
+  .col-md-8.col-sm-12{
+    display: none;
+  }
+  .info-wrapper{
+    margin-top: 10px;
+    width: 90%;
+  }
+  .topic{
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 568px){
+  .col-md-8.col-sm-12{
+    display: none;
+  }
 }
 </style>

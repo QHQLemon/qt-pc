@@ -4,15 +4,14 @@
       <p class="main-title">Equipment Outline</p>
       <p
         class="device-dire"
-      >Since our foundation in 2004, we have constantly invested in purchasing machineriessuch as two of Japan-made most advanced machining centers, over ten sets of Japanese CNC automatic lathing and hob cutters as well as one set of our original-designed and patented high speed dry hob cutter. Recently, because Chinese machineries industries have improved their technologies and services to satisfy our requirement of high precision and quality, thus we began to select these local ones, including　automatic ultrasonic rinsing facility, hob cutting, worm rolling, wire-cutter, centerless, knurling to manufacture . On the other hand, for quality assurance, Japan-made high precision measurement equipment like three-dimension, surface roughness, roundness, gear tooth matching and gear shape are all line-up and available.
-      </p>
-      </div>
+      >Since our foundation in 2004, we have constantly invested in purchasing machineriessuch as two of Japan-made most advanced machining centers, over ten sets of Japanese CNC automatic lathing and hob cutters as well as one set of our original-designed and patented high speed dry hob cutter. Recently, because Chinese machineries industries have improved their technologies and services to satisfy our requirement of high precision and quality, thus we began to select these local ones, including automatic ultrasonic rinsing facility, hob cutting, worm rolling, wire-cutter, centerless, knurling to manufacture . On the other hand, for quality assurance, Japan-made high precision measurement equipment like three-dimension, surface roughness, roundness, gear tooth matching and gear shape are all line-up and available.</p>
+    </div>
     <div class="device-show">
       <p class="device-title">MACHINERIES INTRODUCTION</p>
       <div class="device-img-box">
         <div class="divice-item has-shadow" v-for="item in deviceData">
           <p class="divice-name">{{item.devTitle}}</p>
-          <img :src="item.devImg" alt>
+          <img :src="item.devImg" alt />
         </div>
       </div>
     </div>
@@ -131,7 +130,7 @@ export default {
         {
           devTitle: "Automatic ultrasonic rinsing facility ",
           devImg: "../../static/img/device/wash.jpg"
-        },
+        }
       ]
     };
   }
@@ -141,7 +140,7 @@ export default {
 <style scoped>
 .device-dire {
   margin: 0 auto;
-  width: 1070px;
+  max-width: 1070px;
   font-size: 16px;
   line-height: 40px;
   margin-bottom: 50px;
@@ -180,5 +179,31 @@ export default {
 }
 .divice-item:hover {
   transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  .main-title {
+    font-size: 24px;
+  }
+  .divice-item:hover {
+    transform: scale(1);
+  }
+  .divice-item {
+    margin-top: 20px;
+  }
+  .device-img-box {
+    justify-content: space-around;
+  }
+  .device-title {
+    font-size: 18px;
+    width: 290px;
+  }
+  .divice-item p {
+    height: 30px;
+    line-height: 16px;
+    font-size: 16px;
+  }
 }
 </style>

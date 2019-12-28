@@ -29,14 +29,10 @@ app.post('/subMsg', function(request, response){
       pass: 'fwghjfeukibpcbda'
     }
   })
-  // var str = '姓名：' + postData.cName +'；  公司：' + postData.cCompany +' ；电话：' + postData.cPhone +'； 邮箱：' + postData.cEmial +' ；咨询内容: ' + postData.cContent;
-  // console.log(str)
   var mailOptions = {
     from: '328858582@qq.com',
-    // to: 'kerry_huang@kiyotadg.com',
     to: "sales@kiyotadg.com",
     subject: '咨询信息',
-    // text: str,
     html: `<h2>网站咨询信息如下：</h2>
     <h3>姓名:`  + postData.cName  +`</h3>
     <h3>公司: ` + postData.cCompany +`</h3>
@@ -56,7 +52,6 @@ app.post('/subMsg', function(request, response){
     response.write(packData('200', '发送成功', 'hahaha'));
     response.end()
   })
-
 })
 
 function packData(static, desc, data) {

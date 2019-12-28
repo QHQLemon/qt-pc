@@ -13,23 +13,23 @@
           <span class="glyphicon glyphicon-bell"></span>团建活动
         </p>
         <div class="img-wrapper clearfix">
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/tj3.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/tj3.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/tj4.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/tj4.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/tj1.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/tj1.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/tj2.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/tj2.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/tj5.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/tj5.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/tj6.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/tj6.jpg" alt />
           </div>
         </div>
       </div>
@@ -39,24 +39,24 @@
           <span class="glyphicon glyphicon-bell"></span>忘年会
         </p>
         <div class="img-wrapper clearfix">
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/nh1.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/nh1.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/nh3.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/nh3.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/nh2.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/nh2.jpg" alt />
           </div>
-          <!-- <div class="img-item col-lg-4">
+          <!-- <div class="img-item col-md-4">
             <img src="../assets/img/life/nh4.jpg" alt>
-          </div> -->
-          <!-- <div class="img-item col-lg-4">
+          </div>-->
+          <!-- <div class="img-item col-md-4">
             <img src="../assets/img/IMG_3651.jpg" alt>
           </div>
-          <div class="img-item col-lg-4">
+          <div class="img-item col-md-4">
             <img src="../assets/img/IMG_3651.jpg" alt>
-          </div> -->
+          </div>-->
         </div>
       </div>
 
@@ -65,60 +65,60 @@
           <span class="glyphicon glyphicon-bell"></span>消防演习
         </p>
         <div class="img-wrapper clearfix">
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/xf2.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/xf2.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/xf1.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/xf1.jpg" alt />
           </div>
-          <div class="img-item col-lg-4">
-            <img src="../assets/img/life/xf3.jpg" alt>
+          <div class="img-item col-md-4">
+            <img src="../assets/img/life/xf3.jpg" alt />
           </div>
-          <!-- <div class="img-item col-lg-4">
+          <!-- <div class="img-item col-md-4">
             <img src="../assets/img/life/xf6.jpg" alt>
-          </div> -->
+          </div>-->
         </div>
       </div>
     </div>
 
     <div class="profit-box">
       <!-- <p class="life-img-title">清田的福利</p>
-      <hr> -->
+      <hr>-->
       <div class="profit-wrapper">
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-yen"></span>
           </p>
           <p class="profit-title">薪酬</p>
           <p class="profit-dir">提供具有竞争力的月薪</p>
         </div>
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-gift"></span>
           </p>
           <p class="profit-title">奖金</p>
           <p class="profit-dir">年终双薪</p>
         </div>
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-time"></span>
           </p>
           <p class="profit-title">出勤</p>
           <p class="profit-dir">五天八小时工作制，加班另计</p>
         </div>
-        <div class="profit-item">
-          <p class="icon-wrapper">
-            <span class="glyphicon glyphicon-bed"></span>
-          </p>
-          <p class="profit-title">休假</p>
-          <p class="profit-dir">执行国家法定休假制度，另服务满一年可享受7天有薪假，三至五年可享受10天有薪假，六年以上可享受14天有薪假</p>
-        </div>
-        <div class="profit-item">
+        <div class="profit-item col-md-2">
           <p class="icon-wrapper">
             <span class="glyphicon glyphicon-pushpin"></span>
           </p>
           <p class="profit-title">保险</p>
           <p class="profit-dir">除按法律规定办理社会保险外，公司另为员工购买附加商业保险</p>
+        </div>
+        <div class="profit-item col-md-2">
+          <p class="icon-wrapper">
+            <span class="glyphicon glyphicon-bed"></span>
+          </p>
+          <p class="profit-title">休假</p>
+          <p class="profit-dir">执行国家法定休假制度，另服务满一年可享受7天有薪假，三至五年可享受10天有薪假，六年以上可享受14天有薪假</p>
         </div>
       </div>
     </div>
@@ -130,8 +130,6 @@ export default {};
 </script >
 
 <style scoped>
-.life-wrapper {
-}
 .life-top {
   padding-top: 50px;
   text-align: center;
@@ -153,8 +151,6 @@ export default {};
   justify-content: space-around;
 }
 .profit-wrapper .profit-item {
-  width: 220px;
-  min-height: 250px;
   padding: 20px 30px;
   text-align: center;
 }
@@ -210,12 +206,48 @@ export default {};
   margin-top: 20px;
 }
 .img-item img {
-  width: 90%;
+  width: 95%;
 }
 .img-item img:hover {
   transform: scale(1.05);
 }
-.profit-box{
+.profit-box {
   margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 15px;
+  }
+  .life-item {
+    margin-top: 10px;
+  }
+  .img-item {
+    margin-top: 12px;
+  }
+  .img-item img:hover {
+    transform: scale(1);
+  }
+  .profit-wrapper {
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .profit-wrapper .profit-item {
+    width: 50%;
+  }
+  .profit-wrapper .profit-item:last-child{
+    width: 80%;
+  }
+  .profit-item:hover {
+  transform: scale(1);
+}
+.icon-wrapper{
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+}
+.icon-wrapper span{
+  font-size: 20px;
+}
 }
 </style>

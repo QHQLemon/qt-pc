@@ -1,5 +1,5 @@
 <template>
-  <div class="header-right-wrapper">
+  <!-- <div class="header-right-wrapper">
     <div class="dropdown">
       <button
         class="btn btn-default my-btn dropdown-toggle"
@@ -24,6 +24,33 @@
         </li>
       </ul>
     </div>
+  </div>-->
+  <div class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a
+        href="#"
+        class="dropdown-toggle"
+        data-toggle="dropdown"
+        role="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+       选择语言
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu clearfix">
+        <li>
+          <router-link tag="a" to="/home">中文</router-link>
+        </li>
+        <li>
+          <router-link tag="a" to="/Japanese">日语</router-link>
+        </li>
+        <li>
+          <router-link tag="a" to="/English">英文</router-link>
+        </li>
+      </ul>
+      </ul>
+    </li>
   </div>
 </template>
 
@@ -32,8 +59,12 @@ export default {};
 </script >
 
 <style scoped>
-.header-right-wrapper .dropdown{
-  float: right;
-  margin-top: 16px;
+@media (max-width: 768px) {
+  li{
+    display: block;
+    width: 100%;
+  }
+
 }
+
 </style>

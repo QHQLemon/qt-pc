@@ -8,7 +8,7 @@
         </p>
       </div>
       <div class="company-intro-bottom">
-        <div class="col-lg-6 company-intro-bottom-left">
+        <div class="col-sm-6 company-intro-bottom-left">
           <p class="company-title">质量方针</p>
           <p class="company-quality-inner-title">
             <span class="glyphicon glyphicon-ok"></span>品质第一
@@ -31,8 +31,8 @@
           </p>
           <p class="company-quality-inner">全员勇于创新并掌握新规则、新知识、新技能。</p>
         </div>
-        <div class="col-lg-6 company-intro-bottom-right">
-          <img src="../assets/img/company.jpg" alt>
+        <div class="col-sm-6 company-intro-bottom-right">
+          <img src="../assets/img/company.jpg" alt />
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@
       <p class="company-title">公司沿革</p>
       <div class="history-item" v-for="item in companyHistory">
         <span class="glyphicon glyphicon-record"></span>
-        <p>
+        <p class="item-content">
           <strong>{{item.time}}</strong>
           <span class="content-item">{{item.content}}</span>
         </p>
@@ -155,7 +155,7 @@ $(function() {});
 }
 .company-intro-item {
   font-size: 16px;
-  width: 800px;
+  max-width: 800px;
   margin: 20px auto;
   text-indent: 2em;
 }
@@ -192,15 +192,15 @@ $(function() {});
   margin-bottom: 20px;
 }
 .company-simple-item {
+  display: flex;
   height: 40px;
-  line-height: 40px;
   font-size: 14px;
   padding-left: 100px;
   border-bottom: 1px solid #ccc;
 }
 .company-simple-item strong {
   display: inline-block;
-  width: 200px;
+  width: 25%;
 }
 .company-history {
   padding: 50px 100px;
@@ -210,6 +210,7 @@ $(function() {});
 }
 .history-item {
   padding: 10px 100px;
+  display: flex;
 }
 .history-item .glyphicon-record {
   font-size: 16px;
@@ -223,7 +224,7 @@ $(function() {});
 }
 .content-item {
   display: inline-block;
-  width: 600px;
+  max-width: 600px;
   vertical-align: top;
 }
 
@@ -269,6 +270,50 @@ $(function() {});
 }
 .talk-wrapper .talk-dot.active {
   border: 2px solid #0059a0;
+}
+
+@media (max-width: 768px) {
+  .company-intro-title {
+    font-size: 24px;
+  }
+  .container {
+    margin: 0 15px;
+  }
+  .company-intro-bottom,
+  .company-simple {
+    margin-top: 20px;
+  }
+  .company-intro-bottom-left {
+    padding: 10px;
+  }
+  .company-title {
+    font-size: 20px;
+  }
+  .company-intro-bottom-right img {
+    display: none;
+  }
+  .company-simple .container,
+  .company-history {
+    padding: 10px;
+  }
+  .company-simple-item {
+    padding-left: 0;
+  }
+  .history-item{
+    padding: 0;
+  }
+  .history-item .item-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .content-item{
+    padding-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .company-simple-item {
+    line-height: 40px;
+  }
 }
 </style>
 

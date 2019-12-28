@@ -59,9 +59,17 @@ export default {
 }
 .img-wrapper img {
   float: right;
-  width: 900px;
+  width: 90%;
 }
 hr{
   border: 2px solid #0059a0;
+}
+@media (max-width: 768px){
+  .container{
+    margin: 0 15px;
+  }
+  .img-wrapper img{
+    width: 95%;
+  }
 }
 </style>

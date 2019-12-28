@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 .consult-content {
-  width: 600px;
+  max-width: 600px;
   min-height: 600px;
   margin: 0 auto;
 }
@@ -100,5 +100,10 @@ export default {
 }
 .form-group label{
   text-align: center;
+}
+@media (max-width: 768px) {
+  .container{
+    padding: 0 15px;
+  }
 }
 </style>
