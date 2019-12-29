@@ -63,15 +63,12 @@ function packData(static, desc, data) {
 }
 
 app.use(function(req, res, next){
-  console.log('res, req');
   next()
 })
-// app.listen(8081, function(){
-//   console.log('success listen ...8081')
-// })
-http.createServer(app).listen(8080, function(){
+
+http.createServer(app).listen(80, function(){
   console.log('success listen ...80')
 });
 https.createServer(httpsOption, app).listen(443, function(){
-  console.log('443')
+  console.log('success listen ...443')
 })

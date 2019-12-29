@@ -174,7 +174,6 @@ export default {
   },
   methods: {
     changeIndex(data) {
-      console.log(data);
       this.index = data.proNo;
       this.nowPro = data;
     }
@@ -190,7 +189,6 @@ export default {
     }
 
     const wrap = document.getElementById("wrap");
-    console.log(wrap);
     swiper({
       wrap,
       dir: "x",
@@ -199,15 +197,14 @@ export default {
     });
 
     var $this = this;
-    window.onresize = function() {
+    window.addEventListener('resize', function() {
       let clientWidth = document.body.clientWidth;
       if (clientWidth < 768) {
         $this.showFlag = true;
       } else {
         $this.showFlag = false;
       }
-      console.log($this.showFlag);
-    };
+    })
   }
 };
 </script >

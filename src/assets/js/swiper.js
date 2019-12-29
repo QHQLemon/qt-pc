@@ -176,7 +176,7 @@ const swiper = ({ wrap, dir = "y", start, end, move, over, toTop, toBottom, back
 
 
         // 速度 => 实现缓冲
-        console.log(speed);
+        // console.log(speed);
 
         //当手指滑动到最后一点到抬起时间大于100ms时，则不执行缓冲，默认用户想看当前内容
         if (isBuffer && (Date.now() - nowTime < 100 || overRangeFlag)) {

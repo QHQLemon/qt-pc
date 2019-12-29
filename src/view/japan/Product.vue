@@ -4,7 +4,7 @@
       <p class="main-title">製品ラインナップ</p>
     </div>
     <div class="intro-show container">
-      <div class="intro-show-left col-lg-4">
+      <div class="intro-show-left col-sm-4">
         <div class="total clearfix" v-show="showFlag">
           <span>加工可能製品群</span>
           <div class="scroll-wrap" id="wrap">
@@ -30,7 +30,7 @@
           </ul>
         </div>
       </div>
-      <div class="intro-show-right col-lg-8">
+      <div class="intro-show-right col-sm-8">
         <pro-item :proData="nowPro"></pro-item>
       </div>
     </div>
@@ -173,7 +173,6 @@ export default {
   },
   methods: {
     changeIndex(data) {
-      console.log(data);
       this.index = data.proNo;
       this.nowPro = data;
     }
@@ -189,7 +188,6 @@ export default {
     }
 
     const wrap = document.getElementById("wrap");
-    console.log(wrap);
     swiper({
       wrap,
       dir: "x",
@@ -198,17 +196,14 @@ export default {
     });
 
     var $this = this;
-    window.onresize = function() {
+    window.addEventListener('resize', function() {
       let clientWidth = document.body.clientWidth;
       if (clientWidth < 768) {
         $this.showFlag = true;
       } else {
         $this.showFlag = false;
       }
-      console.log($this.showFlag);
-    };
-
-
+    })
   }
 };
 </script >

@@ -37,10 +37,26 @@ export default {
     NavRight
   },
   mounted() {
-    var a = document.querySelector(".navbar-toggle");
-    $(".nav-left li a").on("click", function() {
-      a.click();
+    let clientWidth = document.body.clientWidth;
+    let item = $(".nav-left li a");
+    let a = document.querySelector(".navbar-toggle");
+    if (clientWidth < 768) {
+      $(".nav-left li a").on("click", function() {
+        a.click();
+      });
+    }
+
+    window.addEventListener('resize', function() {
+      let clientWidth2 = document.body.clientWidth;
+      if (clientWidth2 < 768) {
+        item.on("click", test);
+      } else {
+        item.off("click", test);
+      }
     });
+    function test() {
+      a.click();
+    }
   }
 };
 </script >
