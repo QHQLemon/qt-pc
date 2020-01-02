@@ -14,13 +14,14 @@
         </p>
         <div class="img-wrapper clearfix">
           <div class="img-item col-md-4">
-            <img src="../assets/img/life/tj3.jpg" alt />
+            <img src="../assets/img/life/tj8.jpg" alt />
           </div>
           <div class="img-item col-md-4">
-            <img src="../assets/img/life/tj4.jpg" alt />
+            <img src="../assets/img/life/tj9.jpg" alt />
           </div>
+
           <div class="img-item col-md-4">
-            <img src="../assets/img/life/tj1.jpg" alt />
+            <img src="../assets/img/life/tj7.jpg" alt />
           </div>
           <div class="img-item col-md-4">
             <img src="../assets/img/life/tj2.jpg" alt />
