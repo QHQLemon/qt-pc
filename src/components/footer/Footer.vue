@@ -16,7 +16,7 @@
           <p>地址：广东省东莞市虎门镇陈村社区厚虎路22号</p>
           <p>电话：+86-769-85235261-2分机828</p>
           <p>传真：+86-769-85235270</p>
-          <p>E-mail：sales@kiyotadg.com</p>
+          <p>E-mail：sales1@kiyotadg.com</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">总公司</p>

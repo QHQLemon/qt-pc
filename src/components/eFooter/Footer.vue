@@ -14,7 +14,7 @@
           <p>Address: no.22, houhu road, chencun community, humen town, dongguan city,</br> guangdong province</p>
           <p>Tel: +86-769-85235261-2 ext. 828</p>
           <p>Fax: + 86-769-85235270</p>
-          <p>E-mail：sales@kiyotadg.com</p>
+          <p>E-mail：sales1@kiyotadg.com</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">Head Office</p>

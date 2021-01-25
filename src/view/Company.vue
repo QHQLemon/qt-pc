@@ -74,7 +74,7 @@ export default {
         { title: "注册号", content: "914419007673331778" },
         { title: "TEL", content: "86-769-85235261/262" },
         { title: "FAX", content: "86-769-85235270" },
-        { title: "Email", content: " sales@kiyotadg.com " },
+        { title: "Email", content: " sales1@kiyotadg.com " },
         { title: "网址", content: " https://www.kiyotadg.com" },
         { title: "邮编", content: "523922" },
         { title: "工作人员", content: "80人" }

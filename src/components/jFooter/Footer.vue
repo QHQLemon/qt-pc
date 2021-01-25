@@ -14,7 +14,7 @@
           <p>住所:広东省东莞市虎门镇陈村社区厚虎路22号</p>
           <p>TEL :+86-76 -8523 - 261-2子机828</p>
           <p>FAX : + 86- 7639 -85235270</p>
-          <p>E-mail：sales@kiyotadg.com</p>
+          <p>E-mail：sales1@kiyotadg.com</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
           <p class="company-name">＜本社＞</p>

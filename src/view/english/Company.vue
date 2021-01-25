@@ -94,7 +94,7 @@ export default {
         { title: "COMPANY ID#", content: "914419007673331778" },
         { title: "TEL", content: "86-769-85235261/262" },
         { title: "FAX", content: "86-769-85235270" },
-        { title: "EMAIL", content: " sales@kiyotadg.com " },
+        { title: "EMAIL", content: " sales1@kiyotadg.com " },
         { title: "URL", content: " https://www.kiyotadg.com" },
         { title: "ZIP", content: "523922" },
         { title: "EMPLOYEES", content: "80" }

@@ -82,7 +82,7 @@ export default {
         { title: "統一信用コード", content: "914419007673331778" },
         { title: "TEL", content: "86-769-85235261/262" },
         { title: "FAX", content: "86-769-85235270" },
-        { title: "Email", content: " sales@kiyotadg.com " },
+        { title: "Email", content: " sales1@kiyotadg.com " },
         { title: "ホームページ", content: " https://www.kiyotadg.com" },
         { title: "郵便番号", content: "523922" },
         { title: "従業員数", content: "80" }
